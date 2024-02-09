@@ -1,5 +1,0 @@
-ID,NAME,CREDITS,PREREQS,
-CIST1200,Computer Science Principles,3,NONE,
-CIST1400,Introduction to Computer Science I,3,NONE,
-CSCI1620,Introduction to Computer Science II,3,CIST1400,
-CSCI2240,Introduction to C Programming,3,CSCI1620,
