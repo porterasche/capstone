@@ -1,1 +1,1 @@
-# capstone
+# Capstone Group 7 (Porter Asche, Jacob Rohrich, Nathan Perkins, Nathan Stone)
