@@ -1,0 +1,407 @@
+{
+  "ACCT 2000 ACCOUNTING BASICS": {
+    "sections": [
+      {
+        "Section 001": "Waitlist",
+        "Class Number": "14178 ?",
+        "Type": "LEC",
+        "Enrolled": "40",
+        "Class Max": "40",
+        "Seats Available": "0",
+        "Credit Hours": "3",
+        "Students on Waitlist": "0",
+        "Course Attribute": "Social Science General Education course",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "10:30AM - 11:45AM",
+        "Days": "TR",
+        "Location": "Mammel Hall 218",
+        "Instructor": "Jillian K. Poyzer"
+      }
+    ]
+  },
+  "ACCT 2010 PRINCIPLES OF ACCOUNTING I": {
+    "sections": [
+      {
+        "Section 860": "Waitlist",
+        "Class Number": "15650 ?",
+        "Type": "LEC",
+        "Enrolled": "30",
+        "Class Max": "30",
+        "Seats Available": "0",
+        "Credit Hours": "3",
+        "Students on Waitlist": "0",
+        "Course Attribute": "Partially Online",
+        "Note": "Students are required to take three ON-CAMPUS exams during the semester and are required to take the Final Examination ON CAMPUS April 27, 2019 (9:00am to 11:00am). Active duty military students stationed away from Omaha must contact the instructor during the first week of classes to discuss exam accommodations.",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "TBA",
+        "Days": "TBA ",
+        "Location": "Partially Online",
+        "Instructor": "Aaron Knape"
+      }
+    ]
+  },
+  "ACCT 2020 PRINCIPLES OF ACCOUNTING II": {
+    "sections": [
+      {
+        "Section 860": "Open",
+        "Class Number": "14039 ?",
+        "Type": "LEC",
+        "Enrolled": "19",
+        "Class Max": "30",
+        "Seats Available": "11",
+        "Credit Hours": "3",
+        "Course Attribute": "Partially Online",
+        "Note": "Students are required to take three ON-CAMPUS exams during the semester and are required to take the Final Examination ON CAMPUS April 27, 2019 (Noon to 2:00pm). Active duty military students stationed away from Omaha must contact the instructor during the first week of classes to discuss exam accommodations.",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "TBA",
+        "Days": "TBA ",
+        "Location": "Partially Online",
+        "Instructor": "Wikil Kwak"
+      }
+    ]
+  },
+  "ACCT 3000 SUPPLY CHAIN MGMT ACCOUNTING": {
+    "sections": [
+      {
+        "Section 001": "Open",
+        "Class Number": "14699 ?",
+        "Type": "LEC",
+        "Enrolled": "5",
+        "Class Max": "15",
+        "Seats Available": "10",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "10:30AM - 11:45AM",
+        "Days": "MW",
+        "Location": "Mammel Hall 321",
+        "Instructor": "Roopa Venkatesh"
+      }
+    ]
+  },
+  "ACCT 3020 BASIC FEDERAL INCOME TAXATION": {
+    "sections": [
+      {
+        "Section 002": "Open",
+        "Class Number": "13904 ?",
+        "Type": "LEC",
+        "Enrolled": "28",
+        "Class Max": "40",
+        "Seats Available": "12",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "6:00PM - 8:40PM",
+        "Days": "W",
+        "Location": "Mammel Hall 118",
+        "Instructor": "Aaron Knape"
+      }
+    ]
+  },
+  "ACCT 3030 INTERMEDIATE FINANCIAL ACCT I": {
+    "sections": [
+      {
+        "Section 002": "Open",
+        "Class Number": "13906 ?",
+        "Type": "LEC",
+        "Enrolled": "35",
+        "Class Max": "40",
+        "Seats Available": "5",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "12:00PM - 1:15PM",
+        "Days": "TR",
+        "Location": "Mammel Hall 220",
+        "Instructor": "Burch T Kealey"
+      }
+    ]
+  },
+  "ACCT 3040 INTERMEDIATE FINANCIAL ACCT II": {
+    "sections": [
+      {
+        "Section 002": "Open",
+        "Class Number": "14228 ?",
+        "Type": "LEC",
+        "Enrolled": "35",
+        "Class Max": "40",
+        "Seats Available": "5",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "10:30AM - 11:45AM",
+        "Days": "TR",
+        "Location": "Mammel Hall 220",
+        "Instructor": "Xiaoyan Cheng"
+      }
+    ]
+  },
+  "ACCT 3050 INTERMEDIATE MANAGERIAL ACCT": {
+    "sections": [
+      {
+        "Section 002": "Open",
+        "Class Number": "13909 ?",
+        "Type": "LEC",
+        "Enrolled": "17",
+        "Class Max": "35",
+        "Seats Available": "18",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "6:00PM - 8:40PM",
+        "Days": "M",
+        "Location": "Mammel Hall 216",
+        "Instructor": "Meg Harris"
+      }
+    ]
+  },
+  "ACCT 3080 ACCOUNTING INFORMATION SYSTEMS": {
+    "sections": [
+      {
+        "Section 002": "Open",
+        "Class Number": "15029 ?",
+        "Type": "LEC",
+        "Enrolled": "18",
+        "Class Max": "35",
+        "Seats Available": "17",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "12:00PM - 2:40PM",
+        "Days": "W",
+        "Location": "Mammel Hall 319",
+        "Instructor": "Meg Harris"
+      }
+    ]
+  },
+  "ACCT 4040 ADVANCED FEDERAL INCOME TAX": {
+    "sections": [
+      {
+        "Section 002": "Open",
+        "Class Number": "14891 ?",
+        "Type": "LEC",
+        "Enrolled": "23",
+        "Class Max": "25",
+        "Seats Available": "2",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "3:00PM - 4:15PM",
+        "Days": "TR",
+        "Location": "Mammel Hall 218",
+        "Instructor": "Jillian K. Poyzer"
+      }
+    ]
+  },
+  "ACCT 4060 ADVANCED MANAGERIAL ACCOUNTING": {
+    "sections": [
+      {
+        "Section 002": "Open",
+        "Class Number": "14893 ?",
+        "Type": "LEC",
+        "Enrolled": "7",
+        "Class Max": "25",
+        "Seats Available": "18",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "6:00PM - 8:40PM",
+        "Days": "M",
+        "Location": "Mammel Hall 218",
+        "Instructor": "Roopa Venkatesh"
+      }
+    ]
+  },
+  "ACCT 4070 NONPROFIT ACCOUNTING": {
+    "sections": [
+      {
+        "Section 001": "Open",
+        "Class Number": "13913 ?",
+        "Type": "LEC",
+        "Enrolled": "22",
+        "Class Max": "25",
+        "Seats Available": "3",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "10:30AM - 11:45AM",
+        "Days": "MW",
+        "Location": "Mammel Hall 322",
+        "Instructor": "Jack Armitage"
+      }
+    ]
+  },
+  "ACCT 4080 PRINCIPLES OF AUDITING": {
+    "sections": [
+      {
+        "Section 002": "Open",
+        "Class Number": "15238 ?",
+        "Type": "LEC",
+        "Enrolled": "30",
+        "Class Max": "40",
+        "Seats Available": "10",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "6:00PM - 8:40PM",
+        "Days": "T",
+        "Location": "Mammel Hall 220",
+        "Instructor": "Jack Armitage"
+      }
+    ]
+  },
+  "ACCT 4500 INDEPENDENT STUDY": {
+    "sections": [
+      {
+        "Section 001": "Open",
+        "Class Number": "13915 ?",
+        "Type": "IND",
+        "Enrolled": "0",
+        "Class Max": "5",
+        "Seats Available": "5",
+        "Credit Hours": "1-3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "TBA",
+        "Days": "TBA ",
+        "Location": "To Be Announced",
+        "Instructor": "Susan W Eldridge"
+      }
+    ]
+  },
+  "ACCT 4510 ACCOUNTING INTERNSHIP": {
+    "sections": [
+      {
+        "Section 001": "Open",
+        "Class Number": "14181 ?",
+        "Type": "FLD",
+        "Enrolled": "14",
+        "Class Max": "25",
+        "Seats Available": "11",
+        "Credit Hours": "1-3",
+        "Course Attribute": "Includes Community Based Learning Component",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "TBA",
+        "Days": "TBA ",
+        "Location": "To Be Announced",
+        "Instructor": "Jillian K. Poyzer"
+      }
+    ]
+  },
+  "ACCT 8046 ADVANCED FEDERAL INCOME TAX": {
+    "sections": [
+      {
+        "Section 002": "Open",
+        "Class Number": "14892 ?",
+        "Type": "LEC",
+        "Enrolled": "3",
+        "Class Max": "8",
+        "Seats Available": "5",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "3:00PM - 4:15PM",
+        "Days": "TR",
+        "Location": "Mammel Hall 218",
+        "Instructor": "Jillian K. Poyzer"
+      }
+    ]
+  },
+  "ACCT 8066 ADVANCED MANAGERIAL ACCOUNTING": {
+    "sections": [
+      {
+        "Section 002": "Open",
+        "Class Number": "14894 ?",
+        "Type": "LEC",
+        "Enrolled": "2",
+        "Class Max": "8",
+        "Seats Available": "6",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "6:00PM - 8:40PM",
+        "Days": "M",
+        "Location": "Mammel Hall 218",
+        "Instructor": "Roopa Venkatesh"
+      }
+    ]
+  },
+  "ACCT 8076 NONPROFIT ACCOUNTING": {
+    "sections": [
+      {
+        "Section 001": "Open",
+        "Class Number": "13918 ?",
+        "Type": "LEC",
+        "Enrolled": "0",
+        "Class Max": "8",
+        "Seats Available": "8",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "10:30AM - 11:45AM",
+        "Days": "MW",
+        "Location": "Mammel Hall 322",
+        "Instructor": "Jack Armitage"
+      }
+    ]
+  },
+  "ACCT 8090 IS AUDITING": {
+    "sections": [
+      {
+        "Section 001": "Waitlist",
+        "Class Number": "15146 ?",
+        "Type": "LEC",
+        "Enrolled": "23",
+        "Class Max": "23",
+        "Seats Available": "0",
+        "Credit Hours": "3",
+        "Students on Waitlist": "0",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "6:00PM - 8:40PM",
+        "Days": "W",
+        "Location": "Mammel Hall 319",
+        "Instructor": "Jennifer L Riley"
+      }
+    ]
+  },
+  "ACCT 8210 FINANCIAL ACCOUNTING THEORY": {
+    "sections": [
+      {
+        "Section 001": "Open",
+        "Class Number": "17020 ?",
+        "Type": "LEC",
+        "Enrolled": "14",
+        "Class Max": "25",
+        "Seats Available": "11",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "6:00PM - 8:40PM",
+        "Days": "M",
+        "Location": "Mammel Hall 220",
+        "Instructor": "Susan W Eldridge"
+      }
+    ]
+  },
+  "ACCT 8230 MANAGEMENT ACCOUNTING ISSUES": {
+    "sections": [
+      {
+        "Section 001": "Open",
+        "Class Number": "15020 ?",
+        "Type": "LEC",
+        "Enrolled": "7",
+        "Class Max": "25",
+        "Seats Available": "18",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "6:00PM - 8:40PM",
+        "Days": "T",
+        "Location": "Mammel Hall 121",
+        "Instructor": "Richard F. Ortman"
+      }
+    ]
+  },
+  "ACCT 8910 SPECIAL TOPICS IN ACCOUNTING": {
+    "sections": [
+      {
+        "Section 001": "Open",
+        "Class Number": "13919 ?",
+        "Type": "LEC",
+        "Enrolled": "1",
+        "Class Max": "5",
+        "Seats Available": "4",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "TBA",
+        "Days": "TBA ",
+        "Location": "To Be Announced",
+        "Instructor": "Susan W Eldridge"
+      }
+    ]
+  }
+}
