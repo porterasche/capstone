@@ -22,6 +22,83 @@
   "ACCT 2010 PRINCIPLES OF ACCOUNTING I": {
     "sections": [
       {
+        "Section 001": "Waitlist",
+        "Class Number": "13897 ?",
+        "Type": "LEC",
+        "Enrolled": "48",
+        "Class Max": "48",
+        "Seats Available": "0",
+        "Credit Hours": "3",
+        "Students on Waitlist": "0",
+        "Note": "Students in this ACCT 2010 course section will take the Final Exam on Saturday, April 27, 2019 from 9:00am to 11:00am.",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "1:30PM - 2:45PM",
+        "Days": "MW",
+        "Location": "Mammel Hall 122",
+        "Instructor": "Aaron Knape"
+      },
+      {
+        "Section 002": "Waitlist",
+        "Class Number": "13898 ?",
+        "Type": "LEC",
+        "Enrolled": "48",
+        "Class Max": "48",
+        "Seats Available": "0",
+        "Credit Hours": "3",
+        "Students on Waitlist": "0",
+        "Note": "Students in this ACCT 2010 course section will take the Final Exam on Saturday, April 27, 2019 from 9:00am to 11:00am.",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "10:30AM - 11:45AM",
+        "Days": "MW",
+        "Location": "Mammel Hall 119",
+        "Instructor": "Jung Eun Park"
+      },
+      {
+        "Section 003": "Open",
+        "Class Number": "15410 ?",
+        "Type": "LEC",
+        "Enrolled": "44",
+        "Class Max": "48",
+        "Seats Available": "4",
+        "Credit Hours": "3",
+        "Note": "Students in this ACCT 2010 course section will take the Final Exam on Saturday, April 27, 2019 from 9:00am to 11:00am.",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "9:00AM - 10:15AM",
+        "Days": "MW",
+        "Location": "Mammel Hall 122",
+        "Instructor": "Burch T Kealey"
+      },
+      {
+        "Section 004": "Open",
+        "Class Number": "15784 ?",
+        "Type": "LEC",
+        "Enrolled": "25",
+        "Class Max": "44",
+        "Seats Available": "19",
+        "Credit Hours": "3",
+        "Note": "Students in this ACCT 2010 course section will take the Final Exam on Saturday, April 27, 2019 from 9:00am to 11:00am.",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "6:00PM - 8:40PM",
+        "Days": "W",
+        "Location": "Mammel Hall 216",
+        "Instructor": "Kate W King"
+      },
+      {
+        "Section 005": "Open",
+        "Class Number": "14429 ?",
+        "Type": "LEC",
+        "Enrolled": "47",
+        "Class Max": "48",
+        "Seats Available": "1",
+        "Credit Hours": "3",
+        "Note": "Students in this ACCT 2010 course section will take the Final Exam on Saturday, April 27, 2019 from 9:00am to 11:00am.",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "12:00PM - 1:15PM",
+        "Days": "MW",
+        "Location": "Mammel Hall 119",
+        "Instructor": "Jung Eun Park"
+      },
+      {
         "Section 860": "Waitlist",
         "Class Number": "15650 ?",
         "Type": "LEC",
@@ -42,6 +119,97 @@
   },
   "ACCT 2020 PRINCIPLES OF ACCOUNTING II": {
     "sections": [
+      {
+        "Section 001": "Open",
+        "Class Number": "13899 ?",
+        "Type": "LEC",
+        "Enrolled": "44",
+        "Class Max": "48",
+        "Seats Available": "4",
+        "Credit Hours": "3",
+        "Note": "Students in this ACCT 2020 course section will take the Final Exam on Saturday, April 27, 2019 from Noon to 2:00pm.",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "1:30PM - 2:45PM",
+        "Days": "TR",
+        "Location": "Mammel Hall 122",
+        "Instructor": "Steve L Nath"
+      },
+      {
+        "Section 002": "Open",
+        "Class Number": "13900 ?",
+        "Type": "LEC",
+        "Enrolled": "23",
+        "Class Max": "48",
+        "Seats Available": "25",
+        "Credit Hours": "3",
+        "Note": "Students in this ACCT 2020 course section will take the Final Exam on Saturday, April 27, 2019 from Noon to 2:00pm.",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "3:00PM - 4:15PM",
+        "Days": "MW",
+        "Location": "Mammel Hall 122",
+        "Instructor": "Wikil Kwak"
+      },
+      {
+        "Section 003": "Waitlist",
+        "Class Number": "13901 ?",
+        "Type": "LEC",
+        "Enrolled": "48",
+        "Class Max": "48",
+        "Seats Available": "0",
+        "Credit Hours": "3",
+        "Students on Waitlist": "0",
+        "Note": "Students in this ACCT 2020 course section will take the Final Exam on Saturday, April 27, 2019 from Noon to 2:00pm.",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "12:00PM - 1:15PM",
+        "Days": "TR",
+        "Location": "Mammel Hall 122",
+        "Instructor": "Steve L Nath"
+      },
+      {
+        "Section 004": "Open",
+        "Class Number": "13902 ?",
+        "Type": "LEC",
+        "Enrolled": "14",
+        "Class Max": "48",
+        "Seats Available": "34",
+        "Credit Hours": "3",
+        "Note": "Students in this ACCT 2020 course section will take the Final Exam on Saturday, April 27, 2019 from Noon to 2:00pm.",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "6:00PM - 8:40PM",
+        "Days": "M",
+        "Location": "Mammel Hall 117",
+        "Instructor": "Wikil Kwak"
+      },
+      {
+        "Section 005": "Open",
+        "Class Number": "17018 ?",
+        "Type": "LEC",
+        "Enrolled": "25",
+        "Class Max": "30",
+        "Seats Available": "5",
+        "Credit Hours": "3",
+        "Note": "Students in this ACCT 2020 course section will take the Final Exam on Saturday, April 27, 2019 from Noon to 2:00pm.",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "12:00PM - 1:15PM",
+        "Days": "MW",
+        "Location": "Mammel Hall 215",
+        "Instructor": "Youngki Jang"
+      },
+      {
+        "Section 006": "Open",
+        "Class Number": "17019 ?",
+        "Type": "LEC",
+        "Enrolled": "9",
+        "Class Max": "30",
+        "Seats Available": "21",
+        "Credit Hours": "3",
+        "Note": "Students in this ACCT 2020 course section will take the Final Exam on Saturday, April 27, 2019 from Noon to 2:00pm.",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "1:30PM - 2:45PM",
+        "Days": "MW",
+        "Location": "Mammel Hall 215",
+        "Instructor": "Youngki Jang"
+      },
       {
         "Section 860": "Open",
         "Class Number": "14039 ?",
@@ -81,6 +249,20 @@
   "ACCT 3020 BASIC FEDERAL INCOME TAXATION": {
     "sections": [
       {
+        "Section 001": "Open",
+        "Class Number": "13903 ?",
+        "Type": "LEC",
+        "Enrolled": "34",
+        "Class Max": "40",
+        "Seats Available": "6",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "12:00PM - 1:15PM",
+        "Days": "MW",
+        "Location": "Mammel Hall 122",
+        "Instructor": "Aaron Knape"
+      },
+      {
         "Section 002": "Open",
         "Class Number": "13904 ?",
         "Type": "LEC",
@@ -98,6 +280,20 @@
   },
   "ACCT 3030 INTERMEDIATE FINANCIAL ACCT I": {
     "sections": [
+      {
+        "Section 001": "Open",
+        "Class Number": "13905 ?",
+        "Type": "LEC",
+        "Enrolled": "21",
+        "Class Max": "40",
+        "Seats Available": "19",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "9:00AM - 10:15AM",
+        "Days": "TR",
+        "Location": "Mammel Hall 220",
+        "Instructor": "Burch T Kealey"
+      },
       {
         "Section 002": "Open",
         "Class Number": "13906 ?",
@@ -117,6 +313,20 @@
   "ACCT 3040 INTERMEDIATE FINANCIAL ACCT II": {
     "sections": [
       {
+        "Section 001": "Open",
+        "Class Number": "13907 ?",
+        "Type": "LEC",
+        "Enrolled": "18",
+        "Class Max": "40",
+        "Seats Available": "22",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "6:00PM - 8:40PM",
+        "Days": "T",
+        "Location": "Mammel Hall 218",
+        "Instructor": "Xiaoyan Cheng"
+      },
+      {
         "Section 002": "Open",
         "Class Number": "14228 ?",
         "Type": "LEC",
@@ -134,6 +344,20 @@
   },
   "ACCT 3050 INTERMEDIATE MANAGERIAL ACCT": {
     "sections": [
+      {
+        "Section 001": "Open",
+        "Class Number": "13908 ?",
+        "Type": "LEC",
+        "Enrolled": "24",
+        "Class Max": "40",
+        "Seats Available": "16",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "10:30AM - 11:45AM",
+        "Days": "MW",
+        "Location": "Mammel Hall 216",
+        "Instructor": "Meg Harris"
+      },
       {
         "Section 002": "Open",
         "Class Number": "13909 ?",
@@ -153,6 +377,20 @@
   "ACCT 3080 ACCOUNTING INFORMATION SYSTEMS": {
     "sections": [
       {
+        "Section 001": "Open",
+        "Class Number": "16965 ?",
+        "Type": "LEC",
+        "Enrolled": "18",
+        "Class Max": "30",
+        "Seats Available": "12",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "12:00PM - 2:40PM",
+        "Days": "M",
+        "Location": "Mammel Hall 319",
+        "Instructor": "Meg Harris"
+      },
+      {
         "Section 002": "Open",
         "Class Number": "15029 ?",
         "Type": "LEC",
@@ -171,6 +409,20 @@
   "ACCT 4040 ADVANCED FEDERAL INCOME TAX": {
     "sections": [
       {
+        "Section 001": "Open",
+        "Class Number": "13911 ?",
+        "Type": "LEC",
+        "Enrolled": "16",
+        "Class Max": "25",
+        "Seats Available": "9",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "1:30PM - 2:45PM",
+        "Days": "TR",
+        "Location": "Mammel Hall 218",
+        "Instructor": "Jillian K. Poyzer"
+      },
+      {
         "Section 002": "Open",
         "Class Number": "14891 ?",
         "Type": "LEC",
@@ -188,6 +440,20 @@
   },
   "ACCT 4060 ADVANCED MANAGERIAL ACCOUNTING": {
     "sections": [
+      {
+        "Section 001": "Open",
+        "Class Number": "13912 ?",
+        "Type": "LEC",
+        "Enrolled": "17",
+        "Class Max": "25",
+        "Seats Available": "8",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "12:00PM - 1:15PM",
+        "Days": "MW",
+        "Location": "Mammel Hall 321",
+        "Instructor": "Roopa Venkatesh"
+      },
       {
         "Section 002": "Open",
         "Class Number": "14893 ?",
@@ -280,6 +546,20 @@
   "ACCT 8046 ADVANCED FEDERAL INCOME TAX": {
     "sections": [
       {
+        "Section 001": "Open",
+        "Class Number": "13917 ?",
+        "Type": "LEC",
+        "Enrolled": "0",
+        "Class Max": "8",
+        "Seats Available": "8",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "1:30PM - 2:45PM",
+        "Days": "TR",
+        "Location": "Mammel Hall 218",
+        "Instructor": "Jillian K. Poyzer"
+      },
+      {
         "Section 002": "Open",
         "Class Number": "14892 ?",
         "Type": "LEC",
@@ -297,6 +577,20 @@
   },
   "ACCT 8066 ADVANCED MANAGERIAL ACCOUNTING": {
     "sections": [
+      {
+        "Section 001": "Open",
+        "Class Number": "14040 ?",
+        "Type": "LEC",
+        "Enrolled": "4",
+        "Class Max": "8",
+        "Seats Available": "4",
+        "Credit Hours": "3",
+        "Date": "Jan 07, 2019 - May 03, 2019",
+        "Time": "12:00PM - 1:15PM",
+        "Days": "MW",
+        "Location": "Mammel Hall 321",
+        "Instructor": "Roopa Venkatesh"
+      },
       {
         "Section 002": "Open",
         "Class Number": "14894 ?",

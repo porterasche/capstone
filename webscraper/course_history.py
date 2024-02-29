@@ -64,8 +64,8 @@ for major in majors:
                     text2 = columns[1].get_text().encode('ascii', 'ignore').decode('ascii')
                     if text2 != "Date":
                         result[text1] = text2
-            
-            courses[course_name]["sections"].append(result)
+                
+                courses[course_name]["sections"].append(result)
 
 
 
