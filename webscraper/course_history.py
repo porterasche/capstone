@@ -11,66 +11,98 @@ import re
 
 # beautifulsoup4 documentation: https://beautiful-soup-4.readthedocs.io/en/latest/
 
+# Setup list of majors
 majors = []
 with open('majors.txt', 'r') as majors_file:
     lines = majors_file.readlines()
     for line in lines:
         majors.append(line.strip())
 
+# Setup list of terms
 terms = []
 with open('terms.txt', 'r') as terms_file:
     lines = terms_file.readlines()
     for line in lines:
         terms.append(line.strip())
 
+# Start parsing...
 courses = {}
+# Loop thru each major and each term
 for major in majors:
     for term in terms:
-        print(f"MAJOR{major} - TERM{term}", flush=True)
+        # Get HTML from website
+        print(f"{major} Term {term}", flush=True)
         url = f"https://www.unomaha.edu/registrar/students/before-you-enroll/class-search/index.php?term={term}&session=&subject={major}&catalog_nbr=&career=&instructor=&class_start_time=&class_end_time=&location=&special=&crse_attr_value=&instruction_mode=#anchor-results"
         html = requests.get(url)
         soup = BeautifulSoup(html.content, "html.parser")
 
+        # All courses are "section" elements, loop through them all
         course_elements = soup.find_all("section")
-
         for course_element in course_elements:
             course_name = course_element["aria-label"]
+
+            # There are two "section" elements that aren't courses, skip them
             if course_name == "UNO Sitewide Links" or course_name == "UNO Contact and Policy Links":
                 continue
-            print(f"{course_name}", flush=True)
+
+            # If a course like this hasn't been parsed yet, create it
             if course_name not in courses:
                 courses[course_name] = {
-                    'sections': []
+                    "desc": [],
+                    "prereq_text": [],
+                    "prereq": [],
+                    "sections": []
                 }
+            
+            # Grab the description and prerequisite text
+            text_elements = course_element.find_all("p")
+            desc = text_elements[0].get_text().encode('ascii', 'ignore').decode('ascii')
+            if len(text_elements) > 1:
+                prereq = text_elements[1].get_text().encode('ascii', 'ignore').decode('ascii')
 
-            sections = course_element.findChildren("div",class_="col m-0 mb-4")
+            # Add the desc and prereq if
+            #   1) the course doesn't have any desc/prereq info yet
+            #   2) the desc/prereq info has changed since the last term
+            if len(courses[course_name]["desc"]) < 1 or desc != courses[course_name]["desc"][-1]:
+                courses[course_name]["desc"].append(desc)
+            if len(courses[course_name]["prereq_text"]) < 1 or prereq != courses[course_name]["prereq_text"][-1]:
+                courses[course_name]["prereq_text"].append(prereq)
+
+            # Each course can have several sessions of it during a semester, loop thru them all
+            sections = course_element.find_all("div",class_="col m-0 mb-4")
             for section in sections:
-                head_rows = section.find("thead").findChildren("tr")
-                body_rows = section.findChildren("tr")
+                # Get all table rows
+                rows = section.find_all("tr")
 
                 result = {}
                 
-                for row in head_rows:
-                    columns = row.find_all("th")
-                    text1 = columns[0].get_text().encode('ascii', 'ignore').decode('ascii')
-                    text2 = columns[1].get_text().encode('ascii', 'ignore').decode('ascii')
-                    result[text1] = text2
+                for row in rows:
+                    h_columns = row.find_all("th")
+                    d_columns = row.find_all("td")
 
-                for row in body_rows:
-                    columns = row.findChildren("td")
-                    if len(columns) < 2:
-                        continue
-                    text1 = columns[0].get_text().encode('ascii', 'ignore').decode('ascii')
-                    text2 = columns[1].get_text().encode('ascii', 'ignore').decode('ascii')
-                    if text2 != "Date":
+                    # Insert header table values into result
+                    if len(h_columns) > 1:
+                        text1 = h_columns[0].get_text().encode('ascii', 'ignore').decode('ascii')
+                        text2 = h_columns[1].get_text().encode('ascii', 'ignore').decode('ascii')
                         result[text1] = text2
-                
+
+                    # Insert body table values into result
+                    if len(d_columns) > 1:
+                        text1 = d_columns[0].get_text().encode('ascii', 'ignore').decode('ascii')
+                        text2 = d_columns[1].get_text().encode('ascii', 'ignore').decode('ascii')
+                        if text2 != "Date": # scraper accidentally picks up a weird field, this code make sure it's not inserted
+                            result[text1] = text2
+
+                # Append full result to course sections
                 courses[course_name]["sections"].append(result)
 
+# Pull prereqs from text into a seperate array
+for course_name in courses:
+    text = courses[course_name]["prereq_text"][-1]
+    prereq = re.findall(r"[A-Z]+ [0-9]{3}[0-9A-Z]", text)
+    courses[course_name]["prereq"] = prereq
 
 
-# Title formatted like CSCI1200COURSE NAME (3 credits)
-# Desc has up to 3 elements (desc, prereqs, misc)
-
+# print to json
 with open('course_history.json', 'w') as file:
     file.write(json.dumps(courses, indent=2))
