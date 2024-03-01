@@ -102,7 +102,6 @@ for course_name in courses:
     prereq = re.findall(r"[A-Z]+ [0-9]{3}[0-9A-Z]", text)
     courses[course_name]["prereq"] = prereq
 
-
 # print to json
 with open('course_history.json', 'w') as file:
     file.write(json.dumps(courses, indent=2))

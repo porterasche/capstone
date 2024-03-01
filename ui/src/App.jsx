@@ -1,23 +1,23 @@
-import logo from './logo.svg';
 import './App.css';
+import CourseList from './components/CourseList/CourseList';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.unomaha.edu/registrar/students/before-you-enroll/class-search/index.php"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Data Scraped from Course Registrar
         </a>
       </header>
+      <div>
+        <CourseList/>
+      </div>
     </div>
   );
 }
