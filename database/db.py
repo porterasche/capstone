@@ -24,7 +24,7 @@ def insert_data_from_json(cursor):
     for entry in data:
         id = entry['id']
         name = entry['name']
-        description = entry['description']
+        description = entry['desc']
         prereqs = entry.get('prereqs', [])  
         misc = entry['misc']
         cursor.execute(insert_query, (id, name, description, prereqs, misc))
