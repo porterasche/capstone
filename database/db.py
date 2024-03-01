@@ -11,6 +11,18 @@ port = "5432"       # Default PostgreSQL port
 # Path to your JSON file
 json_file_path = "cleaned_courses.json"
 
+def create_table(cursor):
+    # Define the table structure as per your requirements
+    create_table_query = '''
+        CREATE TABLE IF NOT EXISTS course_list (
+            id INT,
+            name TEXT,
+            description TEXT,
+            prereqs INTEGER[],
+            misc TEXT
+        );
+    '''
+    cursor.execute(create_table_query)
 
 def insert_data_from_json(cursor):
     with open(json_file_path, 'r') as json_file:
