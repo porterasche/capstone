@@ -18,16 +18,16 @@ def insert_data_from_json(cursor):
 
     # Assuming each entry in the JSON file has 'name' and 'age' fields
     insert_query = '''
-        INSERT INTO course_list (id, name, desc, prereqs, misc) VALUES (%s, %s, %s, %s, %s);
+        INSERT INTO course_list (id, name, description, prereqs, misc) VALUES (%s, %s, %s, %s, %s);
     '''
 
     for entry in data:
         id = entry['id']
         name = entry['name']
-        desc = entry['desc']
+        description = entry['description']
         prereqs = entry.get('prereqs', [])  
         misc = entry['misc']
-        cursor.execute(insert_query, (id, name, desc, prereqs, misc))
+        cursor.execute(insert_query, (id, name, description, prereqs, misc))
 
 def main():
     # Establish a connection to the PostgreSQL database
