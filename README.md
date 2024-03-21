@@ -25,3 +25,11 @@ To run the React UI, you need the latest version of [Node.js](https://nodejs.org
 ## Django Server
 
 You will also need Python for the server, along with the additional package that can be downloaded with `python -m pip install Django`. Open a terminal in `capstone/server` and start it by running the command `python manage.py runserver`. You can visit http://localhost:8000/courses/ to see the basic homepage. Documentation for continuing to set up this server can be found at https://docs.djangoproject.com/en/5.0/intro/tutorial01/.
+
+## Release Notes
+
+### Code Milestone 1
+
+-   Added 2 initial webscraper scripts to gather data from UNO's websites
+-   Created a script to clean up the webscraped data to make it easier for us to use
+-   Created a React UI that displays all CSCI course information

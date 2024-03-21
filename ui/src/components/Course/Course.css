@@ -1,13 +1,13 @@
 .Course {
-    width: 28%;
-    min-height: 350px;
-    margin: 20px;
-    padding: 20px;
-    float: left;
-    background: #61dafb;
-    /* Border */
-    border-width: 3px;
-    border-radius: 15px;
-    border-style: solid;
-    border-color: black;
+  width: 28%;
+  min-height: 350px;
+  margin: 20px;
+  padding: 20px;
+  float: left;
+  background: #61dafb;
+  /* Border */
+  border-width: 3px;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: black;
 }
