@@ -96,7 +96,7 @@ for major in majors:
                 # Append full result to course sections
                 courses[course_name]["sections"].append(result)
 
-# Pull prereqs from text into a seperate array
+# Pull prereqs from text into a seperate array 
 for course_name in courses:
     text = courses[course_name]["prereq_text"][-1]
     prereq = re.findall(r"[A-Z]+ [0-9]{3}[0-9A-Z]", text)
