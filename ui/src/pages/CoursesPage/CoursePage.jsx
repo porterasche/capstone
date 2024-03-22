@@ -4,7 +4,7 @@ import TopBar from "../../components/TopBar/TopBar";
 
 function CoursePage() {
   return (
-    <div className="App">
+    <div>
       <TopBar></TopBar>
       <div>
         <CourseList style={{ "padding-top": "10px" }} />
