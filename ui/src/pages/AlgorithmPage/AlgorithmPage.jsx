@@ -5,9 +5,7 @@ function AlgorithmPage() {
   return (
     <div className="App">
       <TopBar></TopBar>
-      <div>
-        Algorithm Page
-      </div>
+      <div>Algorithm Page</div>
     </div>
   );
 }

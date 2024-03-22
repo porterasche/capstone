@@ -5,9 +5,7 @@ function ErrorPage() {
   return (
     <div className="App">
       <TopBar></TopBar>
-      <div>
-        Error: Page not Found
-      </div>
+      <div>Error: Page not Found</div>
     </div>
   );
 }

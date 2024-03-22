@@ -11,40 +11,43 @@ import AccountTreeIcon from "@mui/icons-material/AccountTree";
 
 export default function TopBar() {
   return (
+    <>
     <Box sx={{ flexGrow: 1 }}>
       <AppBar>
-        <Toolbar>
-            <Link to="/courses" style={{ textDecoration: "none" }}>
-          <Button color="inherit">
-              <ViewListIcon />
+        <Toolbar className="TopBar-main">
+          <Link to="/courses" className="TopBar-text">
+            <Button color="inherit">
+              <ViewListIcon className="TopBar-icon" />
               Course Listing
-          </Button>
-            </Link>
-            <Link to="/algorithm" style={{ textDecoration: "none" }}>
-          <Button color="inherit">
-              <SettingsSuggestIcon />
+            </Button>
+          </Link>
+          <Link to="/algorithm" className="TopBar-text">
+            <Button color="inherit">
+              <SettingsSuggestIcon className="TopBar-icon" />
               Algorithm
-          </Button>
-            </Link>
-          <Button color="inherit">
-            <Link to="/prereqs" style={{ textDecoration: "none" }}>
-              <AccountTreeIcon />
+            </Button>
+          </Link>
+          <Link to="/prereqs" className="TopBar-text">
+            <Button color="inherit">
+              <AccountTreeIcon className="TopBar-icon" />
               Prerequisite Viewer
-            </Link>
-          </Button>
-            <a
-              href="https://www.unomaha.edu/registrar/students/before-you-enroll/class-search/index.php"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ textDecoration: "none" }}
-            >
+            </Button>
+          </Link>
+          <a
+            href="https://www.unomaha.edu/registrar/students/before-you-enroll/class-search/index.php"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="TopBar-text"
+          >
             <Button color="inherit">
               <MenuBookIcon />
               Course Registrar
             </Button>
-            </a>
+          </a>
         </Toolbar>
       </AppBar>
     </Box>
+    <div class="TopBar-padding"></div>
+    </>
   );
 }

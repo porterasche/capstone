@@ -1,0 +1,17 @@
+.TopBar-main {
+  background-color: #282c34;
+}
+
+.TopBar-text {
+  color: white;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+.TopBar-icon {
+  padding-right: 5px;
+}
+
+.TopBar-padding {
+    padding: 40px;
+}
