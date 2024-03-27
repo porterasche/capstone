@@ -1,7 +1,7 @@
 export const courseData = {
   "CSCI 1200 CS PRINCIPLES": {
     desc: [
-      "This course introduces students to the foundational principles of computer science. It aims to help students learn the essential thought processes used by computer scientists to solve problems, expressing those solutions as computer programs. The exercises and projects make use of mobile devices and other emerging platforms.",
+      "This course introduces students to the course CSCI 1620 foundational principles of computer science. It aims to help students learn the essential thought processes used by computer scientists to solve problems, expressing those solutions as computer programs. The exercises and projects make use of mobile devices and other emerging platforms.",
     ],
     prereq_text: [
       "Prereq: MATH 1310 or MATH 1220 or equivalent.",
