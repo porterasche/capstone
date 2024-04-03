@@ -1,0 +1,3297 @@
+[
+    {
+        "course_name": "CSCI 1200 CS PRINCIPLES",
+        "total_enrollment": 93,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 1200 CS PRINCIPLES",
+        "total_enrollment": 87,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 1200 CS PRINCIPLES",
+        "total_enrollment": 79,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 1200 CS PRINCIPLES",
+        "total_enrollment": 116,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 1200 CS PRINCIPLES",
+        "total_enrollment": 118,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 1200 CS PRINCIPLES",
+        "total_enrollment": 180,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 1200 CS PRINCIPLES",
+        "total_enrollment": 85,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 1200 CS PRINCIPLES",
+        "total_enrollment": 116,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 1200 CS PRINCIPLES",
+        "total_enrollment": 126,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 1200 CS PRINCIPLES",
+        "total_enrollment": 189,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 1200 CS PRINCIPLES",
+        "total_enrollment": 102,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 1200 CS PRINCIPLES",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 1204 CSCI PRINCIPLES LAB",
+        "total_enrollment": 44,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 1204 CSCI PRINCIPLES LAB",
+        "total_enrollment": 57,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 1204 CSCI PRINCIPLES LAB",
+        "total_enrollment": 22,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 1204 CSCI PRINCIPLES LAB",
+        "total_enrollment": 69,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 1204 CSCI PRINCIPLES LAB",
+        "total_enrollment": 51,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 1204 CSCI PRINCIPLES LAB",
+        "total_enrollment": 91,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 1204 CSCI PRINCIPLES LAB",
+        "total_enrollment": 52,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 1204 CSCI PRINCIPLES LAB",
+        "total_enrollment": 57,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 1204 CSCI PRINCIPLES LAB",
+        "total_enrollment": 62,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 1204 CSCI PRINCIPLES LAB",
+        "total_enrollment": 83,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 1204 CSCI PRINCIPLES LAB",
+        "total_enrollment": 52,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 1204 CSCI PRINCIPLES LAB",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 1620 INTRO TO CS II",
+        "total_enrollment": 412,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 1620 INTRO TO CS II",
+        "total_enrollment": 322,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 1620 INTRO TO CS II",
+        "total_enrollment": 440,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 1620 INTRO TO CS II",
+        "total_enrollment": 324,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 1620 INTRO TO CS II",
+        "total_enrollment": 450,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 1620 INTRO TO CS II",
+        "total_enrollment": 278,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 1620 INTRO TO CS II",
+        "total_enrollment": 386,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 1620 INTRO TO CS II",
+        "total_enrollment": 330,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 1620 INTRO TO CS II",
+        "total_enrollment": 418,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 1620 INTRO TO CS II",
+        "total_enrollment": 360,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 1620 INTRO TO CS II",
+        "total_enrollment": 350,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 1620 INTRO TO CS II",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 2030 MATHEMATICAL FOUNDATIONS OF CS",
+        "total_enrollment": 86,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 2030 MATHEMATICAL FOUNDATIONS OF CS",
+        "total_enrollment": 97,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 2030 MATHEMATICAL FOUNDATIONS OF CS",
+        "total_enrollment": 88,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 2030 MATHEMATICAL FOUNDATIONS OF CS",
+        "total_enrollment": 120,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 2030 MATHEMATICAL FOUNDATIONS OF CS",
+        "total_enrollment": 103,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 2030 MATHEMATICAL FOUNDATIONS OF CS",
+        "total_enrollment": 83,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 2030 MATHEMATICAL FOUNDATIONS OF CS",
+        "total_enrollment": 118,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 2030 MATHEMATICAL FOUNDATIONS OF CS",
+        "total_enrollment": 101,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 2030 MATHEMATICAL FOUNDATIONS OF CS",
+        "total_enrollment": 132,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 2030 MATHEMATICAL FOUNDATIONS OF CS",
+        "total_enrollment": 122,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 2030 MATHEMATICAL FOUNDATIONS OF CS",
+        "total_enrollment": 153,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 2030 MATHEMATICAL FOUNDATIONS OF CS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 2240 INTRO TO C PROGRAMMING",
+        "total_enrollment": 96,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 2240 INTRO TO C PROGRAMMING",
+        "total_enrollment": 72,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 2240 INTRO TO C PROGRAMMING",
+        "total_enrollment": 94,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 2240 INTRO TO C PROGRAMMING",
+        "total_enrollment": 78,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 2240 INTRO TO C PROGRAMMING",
+        "total_enrollment": 87,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 2240 INTRO TO C PROGRAMMING",
+        "total_enrollment": 71,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 2240 INTRO TO C PROGRAMMING",
+        "total_enrollment": 104,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 2240 INTRO TO C PROGRAMMING",
+        "total_enrollment": 94,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 2240 INTRO TO C PROGRAMMING",
+        "total_enrollment": 119,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 2240 INTRO TO C PROGRAMMING",
+        "total_enrollment": 106,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 2240 INTRO TO C PROGRAMMING",
+        "total_enrollment": 115,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 2240 INTRO TO C PROGRAMMING",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 2510 INTRO TO GAME PROGRAMMING",
+        "total_enrollment": 31,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 2510 INTRO TO GAME PROGRAMMING",
+        "total_enrollment": 29,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 2510 INTRO TO GAME PROGRAMMING",
+        "total_enrollment": 33,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 2510 INTRO TO GAME PROGRAMMING",
+        "total_enrollment": 35,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 2510 INTRO TO GAME PROGRAMMING",
+        "total_enrollment": 35,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 2510 INTRO TO GAME PROGRAMMING",
+        "total_enrollment": 30,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 2850 PROGRAMMING ON THE INTERNET",
+        "total_enrollment": 28,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 2850 PROGRAMMING ON THE INTERNET",
+        "total_enrollment": 28,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 2850 PROGRAMMING ON THE INTERNET",
+        "total_enrollment": 27,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 2850 PROGRAMMING ON THE INTERNET",
+        "total_enrollment": 30,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 2850 PROGRAMMING ON THE INTERNET",
+        "total_enrollment": 25,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 2850 PROGRAMMING ON THE INTERNET",
+        "total_enrollment": 35,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 2850 PROGRAMMING ON THE INTERNET",
+        "total_enrollment": 36,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 2850 PROGRAMMING ON THE INTERNET",
+        "total_enrollment": 35,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 2850 PROGRAMMING ON THE INTERNET",
+        "total_enrollment": 33,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 2850 PROGRAMMING ON THE INTERNET",
+        "total_enrollment": 34,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 2850 PROGRAMMING ON THE INTERNET",
+        "total_enrollment": 37,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 2850 PROGRAMMING ON THE INTERNET",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 3100 APPLIED COMBINATORICS",
+        "total_enrollment": 6,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 3100 APPLIED COMBINATORICS",
+        "total_enrollment": 4,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 3100 APPLIED COMBINATORICS",
+        "total_enrollment": 10,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 3100 APPLIED COMBINATORICS",
+        "total_enrollment": 4,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 3100 APPLIED COMBINATORICS",
+        "total_enrollment": 9,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 3100 APPLIED COMBINATORICS",
+        "total_enrollment": 13,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 3100 APPLIED COMBINATORICS",
+        "total_enrollment": 10,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 3100 APPLIED COMBINATORICS",
+        "total_enrollment": 8,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 3100 APPLIED COMBINATORICS",
+        "total_enrollment": 10,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 3100 APPLIED COMBINATORICS",
+        "total_enrollment": 15,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 3100 APPLIED COMBINATORICS",
+        "total_enrollment": 14,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 3100 APPLIED COMBINATORICS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 3300 NUMERICAL METHODS",
+        "total_enrollment": 10,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 3300 NUMERICAL METHODS",
+        "total_enrollment": 10,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 3300 NUMERICAL METHODS",
+        "total_enrollment": 10,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 3300 NUMERICAL METHODS",
+        "total_enrollment": 12,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 3320 DATA STRUCTURES",
+        "total_enrollment": 132,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 3320 DATA STRUCTURES",
+        "total_enrollment": 103,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 3320 DATA STRUCTURES",
+        "total_enrollment": 84,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 3320 DATA STRUCTURES",
+        "total_enrollment": 111,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 3320 DATA STRUCTURES",
+        "total_enrollment": 106,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 3320 DATA STRUCTURES",
+        "total_enrollment": 105,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 3320 DATA STRUCTURES",
+        "total_enrollment": 96,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 3320 DATA STRUCTURES",
+        "total_enrollment": 114,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 3320 DATA STRUCTURES",
+        "total_enrollment": 100,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 3320 DATA STRUCTURES",
+        "total_enrollment": 125,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 3320 DATA STRUCTURES",
+        "total_enrollment": 135,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 3320 DATA STRUCTURES",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 3450 NATURAL LANGUAGE PROCESSING",
+        "total_enrollment": 13,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 3450 NATURAL LANGUAGE PROCESSING",
+        "total_enrollment": 21,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 3450 NATURAL LANGUAGE PROCESSING",
+        "total_enrollment": 25,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 3450 NATURAL LANGUAGE PROCESSING",
+        "total_enrollment": 27,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 3450 NATURAL LANGUAGE PROCESSING",
+        "total_enrollment": 30,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 3550 COMMUNICATION NETWORKS",
+        "total_enrollment": 63,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 3550 COMMUNICATION NETWORKS",
+        "total_enrollment": 84,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 3550 COMMUNICATION NETWORKS",
+        "total_enrollment": 62,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 3550 COMMUNICATION NETWORKS",
+        "total_enrollment": 71,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 3550 COMMUNICATION NETWORKS",
+        "total_enrollment": 72,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 3550 COMMUNICATION NETWORKS",
+        "total_enrollment": 69,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 3550 COMMUNICATION NETWORKS",
+        "total_enrollment": 64,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 3550 COMMUNICATION NETWORKS",
+        "total_enrollment": 79,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 3550 COMMUNICATION NETWORKS",
+        "total_enrollment": 70,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 3550 COMMUNICATION NETWORKS",
+        "total_enrollment": 91,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 3550 COMMUNICATION NETWORKS",
+        "total_enrollment": 84,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 3550 COMMUNICATION NETWORKS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 3660 THEORY OF COMPUTATION",
+        "total_enrollment": 61,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 3660 THEORY OF COMPUTATION",
+        "total_enrollment": 39,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 3660 THEORY OF COMPUTATION",
+        "total_enrollment": 89,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 3660 THEORY OF COMPUTATION",
+        "total_enrollment": 51,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 3660 THEORY OF COMPUTATION",
+        "total_enrollment": 87,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 3660 THEORY OF COMPUTATION",
+        "total_enrollment": 69,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 3660 THEORY OF COMPUTATION",
+        "total_enrollment": 83,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 3660 THEORY OF COMPUTATION",
+        "total_enrollment": 68,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 3660 THEORY OF COMPUTATION",
+        "total_enrollment": 81,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 3660 THEORY OF COMPUTATION",
+        "total_enrollment": 78,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 3660 THEORY OF COMPUTATION",
+        "total_enrollment": 71,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 3660 THEORY OF COMPUTATION",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 3710 INTRO TO DIGITAL DESIGN",
+        "total_enrollment": 91,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 3710 INTRO TO DIGITAL DESIGN",
+        "total_enrollment": 66,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 3710 INTRO TO DIGITAL DESIGN",
+        "total_enrollment": 109,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 3710 INTRO TO DIGITAL DESIGN",
+        "total_enrollment": 77,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 3710 INTRO TO DIGITAL DESIGN",
+        "total_enrollment": 146,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 3710 INTRO TO DIGITAL DESIGN",
+        "total_enrollment": 82,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 3710 INTRO TO DIGITAL DESIGN",
+        "total_enrollment": 98,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 3710 INTRO TO DIGITAL DESIGN",
+        "total_enrollment": 81,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 3710 INTRO TO DIGITAL DESIGN",
+        "total_enrollment": 88,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 3710 INTRO TO DIGITAL DESIGN",
+        "total_enrollment": 91,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 3710 INTRO TO DIGITAL DESIGN",
+        "total_enrollment": 119,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 3710 INTRO TO DIGITAL DESIGN",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 3830 ADVANCED JAVA PROGRAMMING",
+        "total_enrollment": 25,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 3830 ADVANCED JAVA PROGRAMMING",
+        "total_enrollment": 19,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 3830 ADVANCED JAVA PROGRAMMING",
+        "total_enrollment": 41,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 3830 ADVANCED JAVA PROGRAMMING",
+        "total_enrollment": 29,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 3830 ADVANCED JAVA PROGRAMMING",
+        "total_enrollment": 37,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 3830 ADVANCED JAVA PROGRAMMING",
+        "total_enrollment": 20,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 3830 ADVANCED JAVA PROGRAMMING",
+        "total_enrollment": 33,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 3830 ADVANCED JAVA PROGRAMMING",
+        "total_enrollment": 28,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 3830 ADVANCED JAVA PROGRAMMING",
+        "total_enrollment": 29,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 3830 ADVANCED JAVA PROGRAMMING",
+        "total_enrollment": 35,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 3830 ADVANCED JAVA PROGRAMMING",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 4000 ASSESSMENT",
+        "total_enrollment": 45,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 4000 ASSESSMENT",
+        "total_enrollment": 30,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 4000 ASSESSMENT",
+        "total_enrollment": 56,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 4000 ASSESSMENT",
+        "total_enrollment": 38,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 4000 ASSESSMENT",
+        "total_enrollment": 56,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 4000 ASSESSMENT",
+        "total_enrollment": 37,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 4000 ASSESSMENT",
+        "total_enrollment": 49,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 4000 ASSESSMENT",
+        "total_enrollment": 51,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 4000 ASSESSMENT",
+        "total_enrollment": 51,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 4000 ASSESSMENT",
+        "total_enrollment": 40,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 4000 ASSESSMENT",
+        "total_enrollment": 70,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4000 ASSESSMENT",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 4150 GRAPH THEORY",
+        "total_enrollment": 29,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 4150 GRAPH THEORY",
+        "total_enrollment": 34,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 4150 GRAPH THEORY",
+        "total_enrollment": 24,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 4150 GRAPH THEORY",
+        "total_enrollment": 22,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 4150 GRAPH THEORY",
+        "total_enrollment": 23,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 4150 GRAPH THEORY",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 4220 PRINC OF PROGRAMMING LANGUAGES",
+        "total_enrollment": 42,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 4220 PRINC OF PROGRAMMING LANGUAGES",
+        "total_enrollment": 54,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 4220 PRINC OF PROGRAMMING LANGUAGES",
+        "total_enrollment": 47,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 4220 PRINC OF PROGRAMMING LANGUAGES",
+        "total_enrollment": 55,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 4220 PRINC OF PROGRAMMING LANGUAGES",
+        "total_enrollment": 43,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 4220 PRINC OF PROGRAMMING LANGUAGES",
+        "total_enrollment": 51,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 4220 PRINC OF PROGRAMMING LANGUAGES",
+        "total_enrollment": 57,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 4220 PRINC OF PROGRAMMING LANGUAGES",
+        "total_enrollment": 35,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 4220 PRINC OF PROGRAMMING LANGUAGES",
+        "total_enrollment": 54,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 4220 PRINC OF PROGRAMMING LANGUAGES",
+        "total_enrollment": 35,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 4220 PRINC OF PROGRAMMING LANGUAGES",
+        "total_enrollment": 63,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4220 PRINC OF PROGRAMMING LANGUAGES",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 4260 USER INTERFACE DSGN & DEVL",
+        "total_enrollment": 18,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 4350 COMPUTER ARCHITECTURE",
+        "total_enrollment": 82,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 4350 COMPUTER ARCHITECTURE",
+        "total_enrollment": 60,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 4350 COMPUTER ARCHITECTURE",
+        "total_enrollment": 112,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 4350 COMPUTER ARCHITECTURE",
+        "total_enrollment": 73,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 4350 COMPUTER ARCHITECTURE",
+        "total_enrollment": 124,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 4350 COMPUTER ARCHITECTURE",
+        "total_enrollment": 94,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 4350 COMPUTER ARCHITECTURE",
+        "total_enrollment": 100,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 4350 COMPUTER ARCHITECTURE",
+        "total_enrollment": 81,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 4350 COMPUTER ARCHITECTURE",
+        "total_enrollment": 94,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 4350 COMPUTER ARCHITECTURE",
+        "total_enrollment": 83,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 4350 COMPUTER ARCHITECTURE",
+        "total_enrollment": 101,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4350 COMPUTER ARCHITECTURE",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 4380 FORENSICS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 4380 FORENSICS",
+        "total_enrollment": 8,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 4380 FORENSICS",
+        "total_enrollment": 9,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 4380 FORENSICS",
+        "total_enrollment": 10,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 4380 FORENSICS",
+        "total_enrollment": 2,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 4380 FORENSICS",
+        "total_enrollment": 4,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 4380 FORENSICS",
+        "total_enrollment": 7,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 4380 FORENSICS",
+        "total_enrollment": 5,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 4380 FORENSICS",
+        "total_enrollment": 6,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 4380 FORENSICS",
+        "total_enrollment": 2,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 4380 FORENSICS",
+        "total_enrollment": 6,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4380 FORENSICS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 4500 OPERATING SYSTEMS",
+        "total_enrollment": 51,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 4500 OPERATING SYSTEMS",
+        "total_enrollment": 50,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 4500 OPERATING SYSTEMS",
+        "total_enrollment": 82,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 4500 OPERATING SYSTEMS",
+        "total_enrollment": 72,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 4500 OPERATING SYSTEMS",
+        "total_enrollment": 69,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 4500 OPERATING SYSTEMS",
+        "total_enrollment": 58,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 4500 OPERATING SYSTEMS",
+        "total_enrollment": 80,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 4500 OPERATING SYSTEMS",
+        "total_enrollment": 59,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 4500 OPERATING SYSTEMS",
+        "total_enrollment": 77,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 4500 OPERATING SYSTEMS",
+        "total_enrollment": 61,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 4500 OPERATING SYSTEMS",
+        "total_enrollment": 74,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4500 OPERATING SYSTEMS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 4560 NUMBER THEORY & CRYPTOGRAPHY",
+        "total_enrollment": 7,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 4560 NUMBER THEORY & CRYPTOGRAPHY",
+        "total_enrollment": 6,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 4560 NUMBER THEORY & CRYPTOGRAPHY",
+        "total_enrollment": 3,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 4560 NUMBER THEORY & CRYPTOGRAPHY",
+        "total_enrollment": 7,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 4560 NUMBER THEORY & CRYPTOGRAPHY",
+        "total_enrollment": 8,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 4560 NUMBER THEORY & CRYPTOGRAPHY",
+        "total_enrollment": 6,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4620 COMPUTER GRAPHICS",
+        "total_enrollment": 27,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 4620 COMPUTER GRAPHICS",
+        "total_enrollment": 31,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 4620 COMPUTER GRAPHICS",
+        "total_enrollment": 27,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 4620 COMPUTER GRAPHICS",
+        "total_enrollment": 33,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 4620 COMPUTER GRAPHICS",
+        "total_enrollment": 34,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 4620 COMPUTER GRAPHICS",
+        "total_enrollment": 34,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4830 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 82,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 4830 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 32,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 4830 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 76,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 4830 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 67,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 4830 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 88,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 4830 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 67,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 4830 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 68,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 4830 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 55,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 4830 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 79,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 4830 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 60,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 4830 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 66,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4830 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 4850 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 9,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 4850 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 25,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 4850 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 21,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 4850 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 23,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 4850 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 29,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 4850 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 22,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 4850 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 29,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 4850 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 16,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 4850 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 22,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 4850 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 20,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 4850 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 4950 INTERNSHIP IN COMPUTER SCIENCE",
+        "total_enrollment": 43,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 4950 INTERNSHIP IN COMPUTER SCIENCE",
+        "total_enrollment": 12,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 4950 INTERNSHIP IN COMPUTER SCIENCE",
+        "total_enrollment": 31,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 4950 INTERNSHIP IN COMPUTER SCIENCE",
+        "total_enrollment": 6,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 4950 INTERNSHIP IN COMPUTER SCIENCE",
+        "total_enrollment": 26,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 4950 INTERNSHIP IN COMPUTER SCIENCE",
+        "total_enrollment": 1,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 4950 INTERNSHIP IN COMPUTER SCIENCE",
+        "total_enrollment": 44,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 4950 INTERNSHIP IN COMPUTER SCIENCE",
+        "total_enrollment": 10,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 4950 INTERNSHIP IN COMPUTER SCIENCE",
+        "total_enrollment": 33,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 4950 INTERNSHIP IN COMPUTER SCIENCE",
+        "total_enrollment": 5,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 4950 INTERNSHIP IN COMPUTER SCIENCE",
+        "total_enrollment": 9,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4950 INTERNSHIP IN COMPUTER SCIENCE",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 4970 CAPSTONE PROJECT",
+        "total_enrollment": 38,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 4970 CAPSTONE PROJECT",
+        "total_enrollment": 33,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 4970 CAPSTONE PROJECT",
+        "total_enrollment": 55,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 4970 CAPSTONE PROJECT",
+        "total_enrollment": 39,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 4970 CAPSTONE PROJECT",
+        "total_enrollment": 55,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 4970 CAPSTONE PROJECT",
+        "total_enrollment": 39,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 4970 CAPSTONE PROJECT",
+        "total_enrollment": 53,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 4970 CAPSTONE PROJECT",
+        "total_enrollment": 48,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 4970 CAPSTONE PROJECT",
+        "total_enrollment": 51,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 4970 CAPSTONE PROJECT",
+        "total_enrollment": 39,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 4970 CAPSTONE PROJECT",
+        "total_enrollment": 67,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4970 CAPSTONE PROJECT",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 4990 INDEPENDENT STUDIES",
+        "total_enrollment": 3,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 4990 INDEPENDENT STUDIES",
+        "total_enrollment": 0,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 4990 INDEPENDENT STUDIES",
+        "total_enrollment": 3,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 4990 INDEPENDENT STUDIES",
+        "total_enrollment": 0,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 4990 INDEPENDENT STUDIES",
+        "total_enrollment": 2,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 4990 INDEPENDENT STUDIES",
+        "total_enrollment": 0,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 4990 INDEPENDENT STUDIES",
+        "total_enrollment": 0,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 4990 INDEPENDENT STUDIES",
+        "total_enrollment": 0,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 4990 INDEPENDENT STUDIES",
+        "total_enrollment": 1,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 4990 INDEPENDENT STUDIES",
+        "total_enrollment": 1,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 4990 INDEPENDENT STUDIES",
+        "total_enrollment": 2,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4990 INDEPENDENT STUDIES",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8080 DSGN & ANALYSIS OF ALGORITHMS",
+        "total_enrollment": 28,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8080 DSGN & ANALYSIS OF ALGORITHMS",
+        "total_enrollment": 9,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8080 DSGN & ANALYSIS OF ALGORITHMS",
+        "total_enrollment": 10,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8080 DSGN & ANALYSIS OF ALGORITHMS",
+        "total_enrollment": 25,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8080 DSGN & ANALYSIS OF ALGORITHMS",
+        "total_enrollment": 30,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8105 APPLIED COMBINATORICS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8105 APPLIED COMBINATORICS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8105 APPLIED COMBINATORICS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8105 APPLIED COMBINATORICS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8105 APPLIED COMBINATORICS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8105 APPLIED COMBINATORICS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8105 APPLIED COMBINATORICS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8105 APPLIED COMBINATORICS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8105 APPLIED COMBINATORICS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8105 APPLIED COMBINATORICS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8105 APPLIED COMBINATORICS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8105 APPLIED COMBINATORICS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8156 GRAPH THEORY",
+        "total_enrollment": 3,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8156 GRAPH THEORY",
+        "total_enrollment": 6,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8156 GRAPH THEORY",
+        "total_enrollment": 3,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8156 GRAPH THEORY",
+        "total_enrollment": 5,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8156 GRAPH THEORY",
+        "total_enrollment": 3,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8156 GRAPH THEORY",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8266 USER INTERFACE DSGN & DEVL",
+        "total_enrollment": 6,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8305 NUMERICAL METHODS",
+        "total_enrollment": 1,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8305 NUMERICAL METHODS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8305 NUMERICAL METHODS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8305 NUMERICAL METHODS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8325 DATA STRUCTURES",
+        "total_enrollment": 0,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8325 DATA STRUCTURES",
+        "total_enrollment": 0,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8325 DATA STRUCTURES",
+        "total_enrollment": 0,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8325 DATA STRUCTURES",
+        "total_enrollment": 2,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8325 DATA STRUCTURES",
+        "total_enrollment": 1,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8325 DATA STRUCTURES",
+        "total_enrollment": 1,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8366 FOUNDATIONS OF IA",
+        "total_enrollment": 20,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8410 DISTRIBUTED SYSTEMS SECURITY",
+        "total_enrollment": 14,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8450 ADV NATURAL LANGUAGE UNDERSTAN",
+        "total_enrollment": 7,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8450 ADV NATURAL LANGUAGE UNDERSTAN",
+        "total_enrollment": 11,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8450 ADV NATURAL LANGUAGE UNDERSTAN",
+        "total_enrollment": 10,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8450 ADV NATURAL LANGUAGE UNDERSTAN",
+        "total_enrollment": 23,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8480 MULTI-AGENT SYS & GAME THEORY",
+        "total_enrollment": 8,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8506 OPERATING SYSTEMS",
+        "total_enrollment": 2,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8506 OPERATING SYSTEMS",
+        "total_enrollment": 2,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8506 OPERATING SYSTEMS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8506 OPERATING SYSTEMS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8530 ADVANCED OPERATING SYSTEMS",
+        "total_enrollment": 19,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8530 ADVANCED OPERATING SYSTEMS",
+        "total_enrollment": 22,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8530 ADVANCED OPERATING SYSTEMS",
+        "total_enrollment": 32,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8530 ADVANCED OPERATING SYSTEMS",
+        "total_enrollment": 24,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8530 ADVANCED OPERATING SYSTEMS",
+        "total_enrollment": 28,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8530 ADVANCED OPERATING SYSTEMS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8555 COMMUNICATION NETWORKS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8555 COMMUNICATION NETWORKS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8555 COMMUNICATION NETWORKS",
+        "total_enrollment": 1,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8555 COMMUNICATION NETWORKS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8555 COMMUNICATION NETWORKS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8566 NUMBER THEORY & CRYPTOGRAPHY",
+        "total_enrollment": 0,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8566 NUMBER THEORY & CRYPTOGRAPHY",
+        "total_enrollment": 6,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8566 NUMBER THEORY & CRYPTOGRAPHY",
+        "total_enrollment": 1,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8566 NUMBER THEORY & CRYPTOGRAPHY",
+        "total_enrollment": 0,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8566 NUMBER THEORY & CRYPTOGRAPHY",
+        "total_enrollment": 0,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8566 NUMBER THEORY & CRYPTOGRAPHY",
+        "total_enrollment": 0,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8610 FAULT TOLERANT DISTRIBUTED SYS",
+        "total_enrollment": 7,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8610 FAULT TOLERANT DISTRIBUTED SYS",
+        "total_enrollment": 6,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8610 FAULT TOLERANT DISTRIBUTED SYS",
+        "total_enrollment": 9,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8626 COMPUTER GRAPHICS",
+        "total_enrollment": 4,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8626 COMPUTER GRAPHICS",
+        "total_enrollment": 5,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8626 COMPUTER GRAPHICS",
+        "total_enrollment": 3,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8626 COMPUTER GRAPHICS",
+        "total_enrollment": 4,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8626 COMPUTER GRAPHICS",
+        "total_enrollment": 5,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8626 COMPUTER GRAPHICS",
+        "total_enrollment": 1,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8790 ADVANCED TOPICS SOFTWARE ENGR",
+        "total_enrollment": 10,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8790 ADVANCED TOPICS SOFTWARE ENGR",
+        "total_enrollment": 21,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8790 ADVANCED TOPICS SOFTWARE ENGR",
+        "total_enrollment": 8,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8790 ADVANCED TOPICS SOFTWARE ENGR",
+        "total_enrollment": 18,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8836 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 5,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8836 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 3,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8836 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 7,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8836 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 14,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8836 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 14,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8836 INTRODUCTN SOFTWARE ENGINEERNG",
+        "total_enrollment": 9,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8856 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 1,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8856 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 2,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8856 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8856 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8856 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 3,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8856 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 4,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8856 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 8,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8856 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 3,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8856 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 13,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8856 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 9,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8856 DATABASE MANAGEMENT SYSTEMS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8876 DB SEARCH/PATTERN DIS BIOINFO",
+        "total_enrollment": 0,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8876 DB SEARCH/PATTERN DIS BIOINFO",
+        "total_enrollment": 5,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8876 DB SEARCH/PATTERN DIS BIOINFO",
+        "total_enrollment": 4,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8876 DB SEARCH/PATTERN DIS BIOINFO",
+        "total_enrollment": 1,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8876 DB SEARCH/PATTERN DIS BIOINFO",
+        "total_enrollment": 3,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8910 MASTER OF SCIENCE CAPSTONE",
+        "total_enrollment": 14,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8910 MASTER OF SCIENCE CAPSTONE",
+        "total_enrollment": 11,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8910 MASTER OF SCIENCE CAPSTONE",
+        "total_enrollment": 17,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8910 MASTER OF SCIENCE CAPSTONE",
+        "total_enrollment": 11,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8910 MASTER OF SCIENCE CAPSTONE",
+        "total_enrollment": 14,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8910 MASTER OF SCIENCE CAPSTONE",
+        "total_enrollment": 24,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8950 GRADUATE INTERNSHIP COMP SCI",
+        "total_enrollment": 8,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8950 GRADUATE INTERNSHIP COMP SCI",
+        "total_enrollment": 3,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8950 GRADUATE INTERNSHIP COMP SCI",
+        "total_enrollment": 11,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8950 GRADUATE INTERNSHIP COMP SCI",
+        "total_enrollment": 5,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8950 GRADUATE INTERNSHIP COMP SCI",
+        "total_enrollment": 12,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8950 GRADUATE INTERNSHIP COMP SCI",
+        "total_enrollment": 3,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8950 GRADUATE INTERNSHIP COMP SCI",
+        "total_enrollment": 5,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8950 GRADUATE INTERNSHIP COMP SCI",
+        "total_enrollment": 4,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8950 GRADUATE INTERNSHIP COMP SCI",
+        "total_enrollment": 12,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8950 GRADUATE INTERNSHIP COMP SCI",
+        "total_enrollment": 6,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8950 GRADUATE INTERNSHIP COMP SCI",
+        "total_enrollment": 4,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8950 GRADUATE INTERNSHIP COMP SCI",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8960 THESIS EQUIVALENT PROJECT CSCI",
+        "total_enrollment": 2,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8960 THESIS EQUIVALENT PROJECT CSCI",
+        "total_enrollment": 6,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8960 THESIS EQUIVALENT PROJECT CSCI",
+        "total_enrollment": 2,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8960 THESIS EQUIVALENT PROJECT CSCI",
+        "total_enrollment": 1,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8960 THESIS EQUIVALENT PROJECT CSCI",
+        "total_enrollment": 5,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8960 THESIS EQUIVALENT PROJECT CSCI",
+        "total_enrollment": 3,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8960 THESIS EQUIVALENT PROJECT CSCI",
+        "total_enrollment": 7,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8960 THESIS EQUIVALENT PROJECT CSCI",
+        "total_enrollment": 2,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8960 THESIS EQUIVALENT PROJECT CSCI",
+        "total_enrollment": 9,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8960 THESIS EQUIVALENT PROJECT CSCI",
+        "total_enrollment": 6,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8960 THESIS EQUIVALENT PROJECT CSCI",
+        "total_enrollment": 4,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8960 THESIS EQUIVALENT PROJECT CSCI",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8970 INDEPENDENT STUDY",
+        "total_enrollment": 0,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8970 INDEPENDENT STUDY",
+        "total_enrollment": 0,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8970 INDEPENDENT STUDY",
+        "total_enrollment": 2,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8970 INDEPENDENT STUDY",
+        "total_enrollment": 1,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8970 INDEPENDENT STUDY",
+        "total_enrollment": 0,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8970 INDEPENDENT STUDY",
+        "total_enrollment": 1,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8970 INDEPENDENT STUDY",
+        "total_enrollment": 0,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8970 INDEPENDENT STUDY",
+        "total_enrollment": 2,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8970 INDEPENDENT STUDY",
+        "total_enrollment": 3,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8970 INDEPENDENT STUDY",
+        "total_enrollment": 2,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8970 INDEPENDENT STUDY",
+        "total_enrollment": 1,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8970 INDEPENDENT STUDY",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8990 THESIS",
+        "total_enrollment": 10,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8990 THESIS",
+        "total_enrollment": 4,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8990 THESIS",
+        "total_enrollment": 4,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8990 THESIS",
+        "total_enrollment": 3,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8990 THESIS",
+        "total_enrollment": 8,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8990 THESIS",
+        "total_enrollment": 5,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8990 THESIS",
+        "total_enrollment": 6,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8990 THESIS",
+        "total_enrollment": 6,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8990 THESIS",
+        "total_enrollment": 10,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8990 THESIS",
+        "total_enrollment": 6,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8990 THESIS",
+        "total_enrollment": 5,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8990 THESIS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8150 ADVANCED COMPUTER ARCHITECTURE",
+        "total_enrollment": 17,
+        "session_term": "Spring 2019"
+    },
+    {
+        "course_name": "CSCI 8150 ADVANCED COMPUTER ARCHITECTURE",
+        "total_enrollment": 29,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8150 ADVANCED COMPUTER ARCHITECTURE",
+        "total_enrollment": 8,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 2980 TOPICS IN COMPUTER SCIENCE",
+        "total_enrollment": 20,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 2980 TOPICS IN COMPUTER SCIENCE",
+        "total_enrollment": 40,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 2980 TOPICS IN COMPUTER SCIENCE",
+        "total_enrollment": 33,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 2980 TOPICS IN COMPUTER SCIENCE",
+        "total_enrollment": 31,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 2980 TOPICS IN COMPUTER SCIENCE",
+        "total_enrollment": 34,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 2980 TOPICS IN COMPUTER SCIENCE",
+        "total_enrollment": 41,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 3510 ADVANCED GAME PROGRAMMING",
+        "total_enrollment": 22,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 3510 ADVANCED GAME PROGRAMMING",
+        "total_enrollment": 22,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 3510 ADVANCED GAME PROGRAMMING",
+        "total_enrollment": 18,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 3510 ADVANCED GAME PROGRAMMING",
+        "total_enrollment": 29,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 3510 ADVANCED GAME PROGRAMMING",
+        "total_enrollment": 24,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 3510 ADVANCED GAME PROGRAMMING",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 3850 FOUNDATIONS OF WEB SEARCH TECH",
+        "total_enrollment": 9,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 3850 FOUNDATIONS OF WEB SEARCH TECH",
+        "total_enrollment": 18,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 3850 FOUNDATIONS OF WEB SEARCH TECH",
+        "total_enrollment": 17,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 4260 UX DESIGN",
+        "total_enrollment": 12,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 4260 UX DESIGN",
+        "total_enrollment": 9,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 4260 UX DESIGN",
+        "total_enrollment": 18,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 4260 UX DESIGN",
+        "total_enrollment": 25,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 4260 UX DESIGN",
+        "total_enrollment": 25,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 4260 UX DESIGN",
+        "total_enrollment": 28,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4300 DETERMINISTIC OR RSRCH MODELS",
+        "total_enrollment": 6,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 4300 DETERMINISTIC OR RSRCH MODELS",
+        "total_enrollment": 6,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 4300 DETERMINISTIC OR RSRCH MODELS",
+        "total_enrollment": 15,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 4300 DETERMINISTIC OR RSRCH MODELS",
+        "total_enrollment": 8,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 4300 DETERMINISTIC OR RSRCH MODELS",
+        "total_enrollment": 1,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 4300 DETERMINISTIC OR RSRCH MODELS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 4450 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 19,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 4450 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 17,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 4450 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 32,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 4450 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 27,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 4450 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 29,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 4450 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 25,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 4450 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 30,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 4450 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 40,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 4450 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 29,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4450 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 4890 DATA WAREHOUSING & DATA MINING",
+        "total_enrollment": 13,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 4890 DATA WAREHOUSING & DATA MINING",
+        "total_enrollment": 6,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 4890 DATA WAREHOUSING & DATA MINING",
+        "total_enrollment": 12,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 4890 DATA WAREHOUSING & DATA MINING",
+        "total_enrollment": 8,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8000 ADV CONCEPTS PROGRAMMING LANG",
+        "total_enrollment": 14,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8000 ADV CONCEPTS PROGRAMMING LANG",
+        "total_enrollment": 20,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8000 ADV CONCEPTS PROGRAMMING LANG",
+        "total_enrollment": 9,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8000 ADV CONCEPTS PROGRAMMING LANG",
+        "total_enrollment": 22,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8000 ADV CONCEPTS PROGRAMMING LANG",
+        "total_enrollment": 25,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8000 ADV CONCEPTS PROGRAMMING LANG",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8010 FOUNDATNS OF COMPUTER SCIENCE",
+        "total_enrollment": 12,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8010 FOUNDATNS OF COMPUTER SCIENCE",
+        "total_enrollment": 7,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8010 FOUNDATNS OF COMPUTER SCIENCE",
+        "total_enrollment": 17,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8010 FOUNDATNS OF COMPUTER SCIENCE",
+        "total_enrollment": 4,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8010 FOUNDATNS OF COMPUTER SCIENCE",
+        "total_enrollment": 6,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8010 FOUNDATNS OF COMPUTER SCIENCE",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8060 ALGORITHMIC COMBINATORICS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8210 ADV COMMUNICATIONS NETWORKS",
+        "total_enrollment": 11,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8210 ADV COMMUNICATIONS NETWORKS",
+        "total_enrollment": 12,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8210 ADV COMMUNICATIONS NETWORKS",
+        "total_enrollment": 9,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8266 UX DESIGN",
+        "total_enrollment": 3,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8266 UX DESIGN",
+        "total_enrollment": 3,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8266 UX DESIGN",
+        "total_enrollment": 11,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8266 UX DESIGN",
+        "total_enrollment": 14,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8300 IMAGE PROCESSING COMPTR VISION",
+        "total_enrollment": 27,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8300 IMAGE PROCESSING COMPTR VISION",
+        "total_enrollment": 15,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8300 IMAGE PROCESSING COMPTR VISION",
+        "total_enrollment": 19,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8306 DETERMINISTIC OR RSRCH MODELS",
+        "total_enrollment": 2,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8306 DETERMINISTIC OR RSRCH MODELS",
+        "total_enrollment": 2,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8306 DETERMINISTIC OR RSRCH MODELS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8306 DETERMINISTIC OR RSRCH MODELS",
+        "total_enrollment": 3,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8306 DETERMINISTIC OR RSRCH MODELS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8306 DETERMINISTIC OR RSRCH MODELS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8366 FOUNDATIONS OF CYBR",
+        "total_enrollment": 4,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8366 FOUNDATIONS OF CYBR",
+        "total_enrollment": 7,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8366 FOUNDATIONS OF CYBR",
+        "total_enrollment": 3,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8366 FOUNDATIONS OF CYBR",
+        "total_enrollment": 4,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8366 FOUNDATIONS OF CYBR",
+        "total_enrollment": 13,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8366 FOUNDATIONS OF CYBR",
+        "total_enrollment": 5,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8366 FOUNDATIONS OF CYBR",
+        "total_enrollment": 6,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8366 FOUNDATIONS OF CYBR",
+        "total_enrollment": 7,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8366 FOUNDATIONS OF CYBR",
+        "total_enrollment": 5,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8366 FOUNDATIONS OF CYBR",
+        "total_enrollment": 6,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8366 FOUNDATIONS OF CYBR",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8390 ADVANCED TOPICS DATA BASE MGMT",
+        "total_enrollment": 10,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8420 SOFTWARE ASSURANCE",
+        "total_enrollment": 13,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8420 SOFTWARE ASSURANCE",
+        "total_enrollment": 22,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8420 SOFTWARE ASSURANCE",
+        "total_enrollment": 10,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8420 SOFTWARE ASSURANCE",
+        "total_enrollment": 6,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8420 SOFTWARE ASSURANCE",
+        "total_enrollment": 8,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8420 SOFTWARE ASSURANCE",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8456 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 18,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8456 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 22,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8456 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 12,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8456 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 15,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8456 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 13,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8456 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 16,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8456 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 12,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8456 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 18,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8456 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 15,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8456 INTRODUCTION ARTIFICIAL INTELL",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8700 SOFTWARE SPECIFICATNS & DESIGN",
+        "total_enrollment": 16,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8700 SOFTWARE SPECIFICATNS & DESIGN",
+        "total_enrollment": 31,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8700 SOFTWARE SPECIFICATNS & DESIGN",
+        "total_enrollment": 29,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8700 SOFTWARE SPECIFICATNS & DESIGN",
+        "total_enrollment": 28,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8700 SOFTWARE SPECIFICATNS & DESIGN",
+        "total_enrollment": 30,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8700 SOFTWARE SPECIFICATNS & DESIGN",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8710 MOD SOFTWARE DVLPT METHODOLOGS",
+        "total_enrollment": 18,
+        "session_term": "Fall 2019"
+    },
+    {
+        "course_name": "CSCI 8710 MOD SOFTWARE DVLPT METHODOLOGS",
+        "total_enrollment": 13,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8710 MOD SOFTWARE DVLPT METHODOLOGS",
+        "total_enrollment": 15,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8710 MOD SOFTWARE DVLPT METHODOLOGS",
+        "total_enrollment": 9,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8710 MOD SOFTWARE DVLPT METHODOLOGS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 1280 INTRO TO COMPUTATIONAL SCIENCE",
+        "total_enrollment": 55,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 1280 INTRO TO COMPUTATIONAL SCIENCE",
+        "total_enrollment": 32,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 1280 INTRO TO COMPUTATIONAL SCIENCE",
+        "total_enrollment": 52,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 1280 INTRO TO COMPUTATIONAL SCIENCE",
+        "total_enrollment": 49,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 1280 INTRO TO COMPUTATIONAL SCIENCE",
+        "total_enrollment": 40,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4010 RECURSIVE FUNCTIONS",
+        "total_enrollment": 2,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 4010 RECURSIVE FUNCTIONS",
+        "total_enrollment": 4,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 4010 RECURSIVE FUNCTIONS",
+        "total_enrollment": 5,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4310 PROBABILISTIC OR RSCH MODELS",
+        "total_enrollment": 1,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 4310 PROBABILISTIC OR RSCH MODELS",
+        "total_enrollment": 1,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 4310 PROBABILISTIC OR RSCH MODELS",
+        "total_enrollment": 1,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 4310 PROBABILISTIC OR RSCH MODELS",
+        "total_enrollment": 3,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 4310 PROBABILISTIC OR RSCH MODELS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8016 RECURSIVE FUNCTIONS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8016 RECURSIVE FUNCTIONS",
+        "total_enrollment": 1,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8016 RECURSIVE FUNCTIONS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8316 PROBABILISTIC OR RSCH MODELS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 8316 PROBABILISTIC OR RSCH MODELS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8316 PROBABILISTIC OR RSCH MODELS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8316 PROBABILISTIC OR RSCH MODELS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8316 PROBABILISTIC OR RSCH MODELS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8980 GRADUATE SEMINAR",
+        "total_enrollment": 16,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 9810 RSCH FOUND THEORETICAL COMPTNG",
+        "total_enrollment": 7,
+        "session_term": "Spring 2020"
+    },
+    {
+        "course_name": "CSCI 9810 RSCH FOUND THEORETICAL COMPTNG",
+        "total_enrollment": 9,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 2410 INTRO TO PYTHON DATA ANALYTICS",
+        "total_enrollment": 15,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 2410 INTRO TO PYTHON DATA ANALYTICS",
+        "total_enrollment": 16,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 2410 INTRO TO PYTHON DATA ANALYTICS",
+        "total_enrollment": 21,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 2410 INTRO TO PYTHON DATA ANALYTICS",
+        "total_enrollment": 38,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 2410 INTRO TO PYTHON DATA ANALYTICS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 4250 HUMAN COMPUTER INTERACTION",
+        "total_enrollment": 30,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 4250 HUMAN COMPUTER INTERACTION",
+        "total_enrollment": 51,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 4250 HUMAN COMPUTER INTERACTION",
+        "total_enrollment": 56,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 4250 HUMAN COMPUTER INTERACTION",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 4470 PATTERN RECOGNITION",
+        "total_enrollment": 15,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 4470 PATTERN RECOGNITION",
+        "total_enrollment": 11,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 4470 PATTERN RECOGNITION",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 4760 TOPICS IN MODELING",
+        "total_enrollment": 0,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8110 ADV TOPICS ARTIFICIAL INTEL",
+        "total_enrollment": 16,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8110 ADV TOPICS ARTIFICIAL INTEL",
+        "total_enrollment": 22,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8110 ADV TOPICS ARTIFICIAL INTEL",
+        "total_enrollment": 20,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8110 ADV TOPICS ARTIFICIAL INTEL",
+        "total_enrollment": 22,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8110 ADV TOPICS ARTIFICIAL INTEL",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8256 HUMAN COMPUTER INTERACTION",
+        "total_enrollment": 8,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8256 HUMAN COMPUTER INTERACTION",
+        "total_enrollment": 20,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8256 HUMAN COMPUTER INTERACTION",
+        "total_enrollment": 14,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8256 HUMAN COMPUTER INTERACTION",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8476 PATTERN RECOGNITION",
+        "total_enrollment": 8,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8476 PATTERN RECOGNITION",
+        "total_enrollment": 13,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8476 PATTERN RECOGNITION",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8620 MOBILE COMP & WIRELESS NETWRKS",
+        "total_enrollment": 13,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8620 MOBILE COMP & WIRELESS NETWRKS",
+        "total_enrollment": 13,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8620 MOBILE COMP & WIRELESS NETWRKS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8766 TOPICS IN MODELING",
+        "total_enrollment": 0,
+        "session_term": "Fall 2020"
+    },
+    {
+        "course_name": "CSCI 8920 ADV TOPICS COMPUTER SCIENCE",
+        "total_enrollment": 51,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 8920 ADV TOPICS COMPUTER SCIENCE",
+        "total_enrollment": 17,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 8920 ADV TOPICS COMPUTER SCIENCE",
+        "total_enrollment": 16,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8920 ADV TOPICS COMPUTER SCIENCE",
+        "total_enrollment": 9,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4430 QUANTUM COMPUTING AND CRYPTO",
+        "total_enrollment": 2,
+        "session_term": "Spring 2021"
+    },
+    {
+        "course_name": "CSCI 4430 QUANTUM COMPUTING AND CRYPTO",
+        "total_enrollment": 5,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 2620 2D GRAPHICS",
+        "total_enrollment": 21,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 2620 2D GRAPHICS",
+        "total_enrollment": 32,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 2620 2D GRAPHICS",
+        "total_enrollment": 29,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 2620 2D GRAPHICS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 3470 MACHINE LEARNING",
+        "total_enrollment": 10,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 3470 MACHINE LEARNING",
+        "total_enrollment": 16,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 3470 MACHINE LEARNING",
+        "total_enrollment": 15,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8360 INFORM STORAGE AND RETRIEVAL",
+        "total_enrollment": 12,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8520 ADV TOPICS IN OR",
+        "total_enrollment": 0,
+        "session_term": "Fall 2021"
+    },
+    {
+        "course_name": "CSCI 8520 ADV TOPICS IN OR",
+        "total_enrollment": 1,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8590 FUNDAMENTALS OF DEEP LEARNING",
+        "total_enrollment": 18,
+        "session_term": "Spring 2022"
+    },
+    {
+        "course_name": "CSCI 4650 INTRO TO CLOUD COMPUTING",
+        "total_enrollment": 25,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 4650 INTRO TO CLOUD COMPUTING",
+        "total_enrollment": 24,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 4650 INTRO TO CLOUD COMPUTING",
+        "total_enrollment": 20,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 4650 INTRO TO CLOUD COMPUTING",
+        "total_enrollment": 22,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4650 INTRO TO CLOUD COMPUTING",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8350 DATA WAREHOUSING & DATA MINING",
+        "total_enrollment": 8,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8350 DATA WAREHOUSING & DATA MINING",
+        "total_enrollment": 20,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8350 DATA WAREHOUSING & DATA MINING",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 8656 INTRO TO CLOUD COMPUTING",
+        "total_enrollment": 10,
+        "session_term": "Fall 2022"
+    },
+    {
+        "course_name": "CSCI 8656 INTRO TO CLOUD COMPUTING",
+        "total_enrollment": 25,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8656 INTRO TO CLOUD COMPUTING",
+        "total_enrollment": 20,
+        "session_term": "Fall 2023"
+    },
+    {
+        "course_name": "CSCI 8656 INTRO TO CLOUD COMPUTING",
+        "total_enrollment": 11,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8656 INTRO TO CLOUD COMPUTING",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 2830 OO SOFTWARE ENG FUNDAMENTALS",
+        "total_enrollment": 17,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 2830 OO SOFTWARE ENG FUNDAMENTALS",
+        "total_enrollment": 30,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 2960 SHORT TOPICS FOR PROGRAMMERS",
+        "total_enrollment": 6,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 2960 SHORT TOPICS FOR PROGRAMMERS",
+        "total_enrollment": 7,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4200 NUMERICAL METHODS",
+        "total_enrollment": 1,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8050 ALGORITHMIC GRAPH THEORY",
+        "total_enrollment": 12,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8050 ALGORITHMIC GRAPH THEORY",
+        "total_enrollment": 11,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8206 NUMERICAL METHODS",
+        "total_enrollment": 1,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8340 DATABASE MANAGEMENT SYSTEMS II",
+        "total_enrollment": 5,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 8760 FORMAL MTHDS IN SOFTWARE ENGRG",
+        "total_enrollment": 17,
+        "session_term": "Spring 2023"
+    },
+    {
+        "course_name": "CSCI 2040 INTRO TO MATHEMATICAL PROOFS",
+        "total_enrollment": 50,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 2040 INTRO TO MATHEMATICAL PROOFS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    },
+    {
+        "course_name": "CSCI 4200 NUMERICAL ANALYSIS",
+        "total_enrollment": 3,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4320 COMPUTATIONAL OR",
+        "total_enrollment": 2,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8206 NUMERICAL ANALYSIS",
+        "total_enrollment": 0,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 8326 COMPUTATIONAL OR",
+        "total_enrollment": 0,
+        "session_term": "Spring 2024"
+    },
+    {
+        "course_name": "CSCI 4100 INTRO TO ALGORITHMS",
+        "total_enrollment": 0,
+        "session_term": "Fall 2024"
+    }
+]
