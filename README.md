@@ -46,3 +46,4 @@ You will also need Python for the server, along with the additional package that
 -   Set up a FastAPI server to connect the UI with the backend, and send responses bidirectionally.
 -   Fixed the data so it can be better interacted with the algorithm, and replaced dates with the terms, and a more accurate prediction.
 -   Parameterized the algorithm so it can be called as a function and passed in parameters.
+-   Converted dates in courses into more readable semester format, and stored them.
