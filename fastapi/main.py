@@ -18,3 +18,14 @@ async def process(field1: str = Query(None), field2: str = Query(None), field3: 
 
     # Send a response back to the UI
     return {"message": f"Processed: field1={field1}, field2={field2}, field3={field3}, result={result}"}
+
+@app.get("/run_algorithm")
+async def run_algorithm(field1: str = Query(None), field2: str = Query(None), field3: str = Query(None)):
+    # return list of 3 classes
+    return [{
+        "id": "CSCI1620"
+    }, {
+        "id": "CSCI4350"
+    }, {
+        "id": "CSCI4560"
+    }]

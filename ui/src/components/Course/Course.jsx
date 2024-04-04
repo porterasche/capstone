@@ -6,7 +6,7 @@ function Course(props) {
     const id = courseId.trim().replace(" ", "");
     const link = `/courses?id=${id}`;
 
-    return <Link to={link}>{courseId}</Link>;
+    return <Link key={link} to={link}>{courseId}</Link>;
   }
   
   function stringToElements(str) {
@@ -26,7 +26,7 @@ function Course(props) {
 
   // generate element
   const prereqText = props.prereq.length > 0 ? `Prerequisites: ${props.prereq.join(", ")}` : "No Prerequisites.";
-  const postreqText = props.postreq.length > 0 ? `Can be taken after: ${props.postreq.join(", ")}` : "";
+  const postreqText = props.postreq.length > 0 ? `Required For: ${props.postreq.join(", ")}` : "";
   return (
     <div className="Course">
       <h2>{stringToElements(props.name)}</h2>

@@ -1,6 +1,5 @@
 import { courseData } from "./courseData";
 import Course from "../Course/Course";
-import { useSearchParams } from 'react-router-dom';
 
 function getCourseData() {
   const arr = [];
@@ -26,27 +25,23 @@ function getCourseData() {
 }
 
 function getCourseElements(arr) {
-  const elements = arr.map((course) => ( // TODO - switch key to course.id
-    <Course name={course.name} key={course.name} desc={course.desc} prereq={course.prereq} postreq={course.postreq}/>
+  const elements = arr.map((course) => ( // switch key to course.id when all duplicates are removed
+    <Course key={course.id} name={course.name} desc={course.desc} prereq={course.prereq} postreq={course.postreq}/>
   ));
 
   return elements;
 }
 
-function CourseList() {
-  const [searchParams, setSearchParams] = useSearchParams();
-  const id = searchParams.get('id');
-
+function CourseList(props) {
   let data = getCourseData();
 
-  data = data.filter(course => !id || (course.id.includes(id)));
+  if (props.ids && props.ids.length > 0) {
+    data = data.filter(course => (props.ids.includes(course.id)));
+    console.log(data)
+  }
 
   if (data.length < 1) {
-    let onlyCSCI = "";
-    if (!id.startsWith("CSCI")) {
-      onlyCSCI = " Only CSCI courses are available to be searched at this time.";
-    }
-    return <p>No courses found for {id}.{onlyCSCI}</p>
+    return <p>No courses found. (Only CSCI courses are available to be searched at this time.)</p>
   }
 
   return <div className="CourseList">{getCourseElements(data)}</div>;

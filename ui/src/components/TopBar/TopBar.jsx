@@ -27,6 +27,12 @@ export default function TopBar() {
                 Algorithm
               </Button>
             </Link>
+            {/* <Link to="/results" className="TopBar-text">
+              <Button color="inherit">
+                <SettingsSuggestIcon className="TopBar-icon" />
+                Algorithm Results
+              </Button>
+            </Link> */}
             <Link to="/prereqs" className="TopBar-text">
               <Button color="inherit">
                 <AccountTreeIcon className="TopBar-icon" />

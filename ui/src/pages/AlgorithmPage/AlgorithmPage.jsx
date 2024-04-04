@@ -1,6 +1,7 @@
 import "./AlgorithmPage.css";
 import TopBar from "../../components/TopBar/TopBar";
 import React, { useState } from 'react';
+import CourseList from "../../components/CourseList/CourseList";
 
 function AlgorithmPage() {
   const [formData, setFormData] = useState({
@@ -9,7 +10,9 @@ function AlgorithmPage() {
     field3: '',
   });
 
-  const [responseMessage, setResponseMessage] = useState('');
+  const [response, setResponse] = useState([]);
+
+  // const [responseMessage, setResponseMessage] = useState('');
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -27,16 +30,24 @@ function AlgorithmPage() {
 
     try {
       // Send GET request to FastAPI server with query parameters
-      const response = await fetch(`http://127.0.0.1:8000/process?${queryString}`);
+      const response = await fetch(`http://127.0.0.1:8000/run_algorithm?${queryString}`);
       const data = await response.json();
 
+      const ids = data.map(course => (course.id.toUpperCase()));
+
       // Handle the response data to update a component, e.g., a message
-      setResponseMessage(data.message);
+      setResponse(ids);
+      // setResponseMessage(data.message);
       } catch (error) {
       console.error('There was an error!', error);
     }
     
   };
+
+  const handleReturn = async (e) => {
+    e.preventDefault();
+    setResponse([]);
+  }
 
   const formStyle = {
     display: 'flex',
@@ -77,7 +88,7 @@ function AlgorithmPage() {
   return (
     <div className="App" style={containerStyle}>
       <TopBar></TopBar>
-      <form onSubmit={handleSubmit} style={formStyle}>
+      { response.length < 1 && <form onSubmit={handleSubmit} style={formStyle}>
         <input
           type="text"
           name="field1"
@@ -105,8 +116,14 @@ function AlgorithmPage() {
         <button type="submit" style={buttonStyle}>
           Submit
         </button>
-        {responseMessage && <p>{responseMessage}</p>}
-      </form>
+      </form>}
+        {response.length > 0 && <div>
+        <form onSubmit={handleReturn} style={formStyle}>
+        <button type="submit" style={buttonStyle}>
+          Rerun Algorithm
+        </button>
+        </form>
+        <CourseList ids={response} style={{ "padding-top": "10px" }} /></div>}
     </div>
   );
 }
