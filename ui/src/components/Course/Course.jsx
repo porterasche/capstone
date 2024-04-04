@@ -23,7 +23,6 @@ function Course(props) {
     }
     return elements;
   }
-  console.log(props.postreq)
 
   // generate element
   const prereqText = props.prereq.length > 0 ? `Prerequisites: ${props.prereq.join(", ")}` : "No Prerequisites.";

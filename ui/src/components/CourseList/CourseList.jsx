@@ -10,7 +10,6 @@ function getCourseData() {
     for (const postreqKey in courseData) {
       if (courseData[postreqKey].prereq.includes(id)) {
         postreqs.push(postreqKey.match(/\b[A-Z]{1,4} \d{4}\b/g)[0]);
-        console.log('win')
       }
     }
     arr.push({
@@ -27,8 +26,8 @@ function getCourseData() {
 }
 
 function getCourseElements(arr) {
-  const elements = arr.map((course) => (
-    <Course name={course.name} desc={course.desc} prereq={course.prereq} postreq={course.postreq}/>
+  const elements = arr.map((course) => ( // TODO - switch key to course.id
+    <Course name={course.name} key={course.name} desc={course.desc} prereq={course.prereq} postreq={course.postreq}/>
   ));
 
   return elements;

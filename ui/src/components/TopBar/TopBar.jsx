@@ -47,7 +47,7 @@ export default function TopBar() {
           </Toolbar>
         </AppBar>
       </Box>
-      <div class="TopBar-padding"></div>
+      <div className="TopBar-padding"></div>
     </>
   );
 }
