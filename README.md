@@ -34,8 +34,15 @@ You will also need Python for the server, along with the additional package that
 -   Created a script to clean up the webscraped data to make it easier for us to use
 -   Created a React UI that displays all CSCI course information
 
+
 ### Code Milestone 2 
 -   Added the prototype algorithm, one algorithm prediction for the following year and one for calculating the accuracy of a prediction
 -   Created a CRON job to pull and push changes automatically
 -   Created a script that will be ran by the CRON Job to automatically restart the UI with current changes
 -   Updated UI to include multiple routes for different tabs (Course Listing, Algorithm, Prerequisite Viewer, Course Registrar)
+
+### Code Milestone 3
+-   Created a mock algorithm user interface to input parameters into the algorithm function in backend.
+-   Set up a FastAPI server to connect the UI with the backend, and send responses bidirectionally.
+-   Fixed the data so it can be better interacted with the algorithm, and replaced dates with the terms, and a more accurate prediction.
+-   Parameterized the algorithm so it can be called as a function and passed in parameters.
