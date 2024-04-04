@@ -71,13 +71,19 @@ def predict_enrollment(course_data, course_id):
     
     return future_term_str, int(predicted_enrollment)
 
-
+def choose_course(course_names_file):
+    course_names = read_json_data(course_names_file)
+    for i, course in enumerate(course_names, start=1):
+        print(f"{i}. {course}")
+    choice = int(input("Select a course by number: ")) - 1
+    return course_names[choice]
 
 
 
 def main():
+    course_names_file = "course_names.json"
+    course_id = choose_course(course_names_file)
     file_path = "../data_alteration/summarized_course_data.json"
-    course_id = "CSCI 1200 CS PRINCIPLES"  # Example course ID
     data = read_json_data(file_path)
     future_term, predicted_enrollment = predict_enrollment(data, course_id)
     print(f"Predicted enrollment for {future_term}: {predicted_enrollment}")
