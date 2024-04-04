@@ -30,7 +30,10 @@ function AlgorithmPage() {
 
     try {
       // Send GET request to FastAPI server with query parameters
-      const response = await fetch(`http://127.0.0.1:8000/run_algorithm?${queryString}`);
+      // LOCAL FETCH
+      // const response = await fetch(`http://127.0.0.1:8000/run_algorithm?${queryString}`);
+      // DEPLOY FETCH
+      const response = await fetch(`http://137.48.186.80:8001/run_algorithm?${queryString}`);
       const data = await response.json();
 
       const ids = data.map(course => (course.id.toUpperCase()));

@@ -37,7 +37,6 @@ function CourseList(props) {
 
   if (props.ids && props.ids.length > 0) {
     data = data.filter(course => (props.ids.includes(course.id)));
-    console.log(data)
   }
 
   if (data.length < 1) {
