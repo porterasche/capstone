@@ -42,6 +42,7 @@ You will also need Python for the server, along with the additional package that
 -   Updated UI to include multiple routes for different tabs (Course Listing, Algorithm, Prerequisite Viewer, Course Registrar)
 
 ### Code Milestone 3
+-   Added links to prerequisites and required courses under each course, and the ability to select (or jump) to that course
 -   Created a mock algorithm user interface to input parameters into the algorithm function in backend.
 -   Set up a FastAPI server to connect the UI with the backend, and send responses bidirectionally.
 -   Fixed the data so it can be better interacted with the algorithm, and replaced dates with the terms, and a more accurate prediction.
