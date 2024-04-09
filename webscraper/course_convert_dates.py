@@ -1,3 +1,13 @@
+## @package webscraper
+#  Documentation for this module.
+#
+#  The purpose of this file is to take the .json file that course_history.py,
+#  look at the dates for each section for all of the courses, and then
+#  generate a new "Semester" parameter that for each of those sections.
+#  For example, if a section has a date of "Aug 21, 2023 - Dec 15, 2023",
+#  then it is given a semester of "Fall 2023". 
+#  This updated information is then writen to course_convert_dates.json.
+
 import requests
 from bs4 import BeautifulSoup
 import json
