@@ -14,6 +14,7 @@ import re
 # Setup list of majors
 import json
 
+## Open the course_history.json file to read.
 with open('course_history.json') as f:
     data = json.load(f)
 
@@ -58,6 +59,6 @@ with open('course_history.json') as f:
 
             print(class_name, sections[i])
 
-# Then, write to course_convert_dates.json
+## Write to a new file named course_convert_dates.json that has the newly generated "Semester" parameters.
 with open('course_convert_dates.json', 'w') as file:
     file.write(json.dumps(data, indent=2))
