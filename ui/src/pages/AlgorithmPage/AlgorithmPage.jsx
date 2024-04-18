@@ -1,9 +1,63 @@
 import "./AlgorithmPage.css";
 import TopBar from "../../components/TopBar/TopBar";
-import React, { useState } from 'react';
+import { useState } from 'react';
 import CourseList from "../../components/CourseList/CourseList";
 
 function AlgorithmPage() {
+  
+const formStyle = {
+  display: 'flex',
+  flexDirection: 'column',
+  width: '300px',
+  margin: '50px auto',
+  padding: '20px',
+  borderRadius: '8px',
+  backgroundColor: 'white',
+  boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
+  justifyContent: 'center',
+};
+
+const inputStyle = {
+  margin: '10px 0',
+  padding: '10px',
+  borderRadius: '4px',
+  border: '1px solid #ccc',
+  width: '185px',
+};
+
+const mainSelectStyle = {
+  margin: '10px 0',
+  padding: '10px',
+  borderRadius: '4px',
+  border: '1px solid #ccc',
+}
+
+const selectStyle = {
+  margin: '10px 0',
+  padding: '10px',
+  borderRadius: '4px',
+  border: '1px solid #ccc',
+  width: '200px',
+};
+
+const buttonStyle = {
+  padding: '10px 20px',
+  border: 'none',
+  borderRadius: '4px',
+  backgroundColor: '#007BFF',
+  color: 'white',
+  cursor: 'pointer',
+  marginTop: '10px',
+};
+
+const containerStyle = {
+  display: 'auto',
+  alignItems: 'center',
+  justifyContent: 'center',
+  height: '100vh',
+  background: 'linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)',
+};
+
   const [formData, setFormData] = useState({
     formType: 'single',
     courseId: '',
@@ -12,9 +66,10 @@ function AlgorithmPage() {
     numberOfCourses: 0,
   });
 
-  const [response, setResponse] = useState([]);
-
-  // const [responseMessage, setResponseMessage] = useState('');
+  const [response, setResponse] = useState({
+    formType: 'none',
+    data: {},
+  });
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -30,104 +85,71 @@ function AlgorithmPage() {
     e.preventDefault();
     console.log('Data to be sent:', formData);
 
-    if (formData.formType === 'multiple') { // multiple
-      const queryString = new URLSearchParams({
-        numberOfCourses: formData.numberOfCourses,
-        term: formData.term,
-        year: formData.year,
-      });
-      const response = await fetch(`http://137.48.186.80:8001/run_algorithm?${queryString}`);
-      const data = await response.json();
-    } else { // single
-      const queryString = new URLSearchParams({
-        courseId: formData.courseId,
-        term: formData.term,
-        year: formData.year,
-      });
-
-    }
-    const queryString = new URLSearchParams(formData).toString();
-
     try {
-      // Send GET request to FastAPI server with query parameters
-      // LOCAL FETCH
-      // const response = await fetch(`http://127.0.0.1:8000/run_algorithm?${queryString}`);
-      // DEPLOY FETCH
-      const response = await fetch(`http://137.48.186.80:8001/run_algorithm?${queryString}`);
-      const data = await response.json();
-
-      const ids = data.map(course => (course.id.toUpperCase()));
-
-      // Handle the response data to update a component, e.g., a message
-      setResponse(ids);
-      // setResponseMessage(data.message);
-      } catch (error) {
-      console.error('There was an error!', error);
+      if (formData.formType === 'multiple') { // multiple
+        const queryString = new URLSearchParams({
+          numberOfCourses: formData.numberOfCourses,
+          term: formData.term,
+          year: formData.year,
+        });
+        const result = await fetch(`http://137.48.186.80:8001/multi_algo?${queryString}`);
+        const data = await result.json();
+        const ids = data.map(course => (course.id.toUpperCase()));
+        setResponse({
+          type: 'multiple',
+          data: ids,
+        });
+      } else { // single
+        const queryString = new URLSearchParams({
+          courseId: formData.courseId,
+          term: formData.term,
+          year: formData.year,
+        });
+        const result = await fetch(`http://137.48.186.80:8001/single_algo?${queryString}`);
+        const data = await result.json();
+        setResponse({
+          type: 'single',
+          data: data,
+        });
+      }
+    } catch (e) {
+      console.error(e);
     }
   };
 
   const handleReturn = async (e) => {
     e.preventDefault();
-    setResponse([]);
+    setResponse({
+      formType: 'none',
+      data: {},
+    });
   };
 
-  const formStyle = {
-    display: 'flex',
-    flexDirection: 'column',
-    width: '300px',
-    margin: '50px auto',
-    padding: '20px',
-    borderRadius: '8px',
-    backgroundColor: 'white',
-    boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
-    justifyContent: 'center',
-  };
-
-  const inputStyle = {
-    margin: '10px 0',
-    padding: '10px',
-    borderRadius: '4px',
-    border: '1px solid #ccc',
-    width: '185px',
-  };
-
-  const mainSelectStyle = {
-    margin: '10px 0',
-    padding: '10px',
-    borderRadius: '4px',
-    border: '1px solid #ccc',
+  let algoResults = null;
+  if (response.formType === 'multiple') {
+    algoResults = (
+      <div>
+        <form onSubmit={handleReturn} style={formStyle}>
+        <button type="submit" style={buttonStyle}>
+        Return to Algorithm Selection
+        </button>
+        </form>
+      <CourseList ids={response} style={{ "padding-top": "10px" }} />
+      </div>
+    );
   }
-
-  const selectStyle = {
-    margin: '10px 0',
-    padding: '10px',
-    borderRadius: '4px',
-    border: '1px solid #ccc',
-    width: '200px',
-  };
-
-  const buttonStyle = {
-    padding: '10px 20px',
-    border: 'none',
-    borderRadius: '4px',
-    backgroundColor: '#007BFF',
-    color: 'white',
-    cursor: 'pointer',
-    marginTop: '10px',
-  };
-
-  const containerStyle = {
-    display: 'auto',
-    alignItems: 'center',
-    justifyContent: 'center',
-    height: '100vh',
-    background: 'linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)',
-  };
+  else if (response.formType === 'single') {
+    algoResults = (
+      <div>
+        Single results response here!
+      </div>
+    )
+  }
 
   return (
     <div className="App" style={containerStyle}>
       <TopBar></TopBar>
-      { response.length < 1 && <form onSubmit={handleSubmit} style={formStyle}>
+      { response.formType === 'none' && <form onSubmit={handleSubmit} style={formStyle}>
         <div>Algorithm Run Type</div>
         <select name="formType" defaultValue="single" onChange={handleChange} 
           style={mainSelectStyle}>
@@ -179,13 +201,7 @@ function AlgorithmPage() {
           Submit
         </button>
       </form>}
-        {response.length > 0 && <div>
-        <form onSubmit={handleReturn} style={formStyle}>
-        <button type="submit" style={buttonStyle}>
-          Rerun Algorithm
-        </button>
-        </form>
-        <CourseList ids={response} style={{ "padding-top": "10px" }} /></div>}
+      {algoResults}
     </div>
   );
 }
