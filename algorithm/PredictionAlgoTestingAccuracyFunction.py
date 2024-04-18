@@ -1,89 +1,68 @@
-# Import necessary libraries
 import json
 import numpy as np
-from datetime import datetime
 
-# Function to read JSON data from a file
-def read_json_data(file_path):
+from PredictionAlgo import predict_enrollment, filter_course_data
+
+import json
+import numpy as np
+
+# Assuming the prediction functions and their dependencies have been defined/imported properly
+# from your_module import read_json_data, predict_enrollment, multiple_linear_regression, encode_terms, filter_course_data
+
+def load_data(file_path):
+    """
+    Load course data from a JSON file.
+    """
     with open(file_path, 'r') as file:
         data = json.load(file)
     return data
 
-# Function to filter data for a specific course based on its course ID
-def filter_course_data(course_data, course_id):
-    return [record for record in course_data if record['course_name'] == course_id]
+def calculate_metrics(actual, predicted):
+    """
+    Calculate MAE, RMSE, and R-squared manually.
+    """
+    n = len(actual)
+    mae = sum(abs(a - p) for a, p in zip(actual, predicted)) / n
+    mse = sum((a - p) ** 2 for a, p in zip(actual, predicted)) / n
+    rmse = np.sqrt(mse)
+    mean_actual = sum(actual) / n
+    ss_tot = sum((a - mean_actual) ** 2 for a in actual)
+    ss_res = sum((a - p) ** 2 for a, p in zip(actual, predicted))
+    r2 = 1 - (ss_res / ss_tot) if ss_tot != 0 else 0  # Handling for constant actual values case
+    return mae, rmse, r2
 
-# Function to encode terms into numerical values for regression
-def encode_terms(terms):
-    term_mapping = {}
-    encoded_terms = []
-    for term in terms:
-        season, year = term.split()
-        encoded = int(year) + (.0 if season == 'Spring' else .5)
-        encoded_terms.append(encoded)
-        term_mapping[encoded] = term
-    return np.array(encoded_terms), term_mapping
+def backtest_predictions(data, course_ids):
+    """
+    Perform backtesting of the prediction algorithm by comparing predictions against actual enrollments.
+    """
+    results = {}
+    for course_id in course_ids:
+        course_data = filter_course_data(data, course_id)
+        historical_terms = [d['session_term'] for d in course_data if 'total_enrollment' in d]
+        historical_enrollments = [d['total_enrollment'] for d in course_data if 'total_enrollment' in d]
 
-# Function for performing simple linear regression
-def simple_linear_regression(X, y):
-    x_mean = np.mean(X)
-    y_mean = np.mean(y)
-    xy_mean = np.mean(X*y)
-    x_square_mean = np.mean(X**2)
-    
-    b1 = (xy_mean - x_mean * y_mean) / (x_square_mean - x_mean**2)
-    b0 = y_mean - b1 * x_mean
-    
-    return b0, b1
+        predicted_enrollments = []
+        for i in range(1, len(historical_terms)):
+            temp_data = course_data[:i]
+            _, predicted = predict_enrollment(temp_data, course_id)
+            predicted_enrollments.append(predicted)
 
-# Modified predict_enrollment function to exclude the most recent term for prediction
-def predict_enrollment(course_data, course_id):
-    specific_course_data = filter_course_data(course_data, course_id)
-    
-    # Use only terms with non-zero enrollment for prediction
-    valid_data_for_prediction = [record for record in specific_course_data if record.get('total_enrollment', -1) > 0]
-    
-    if not valid_data_for_prediction:
-        return "No valid data for prediction", 0
-    
-    # Sort and exclude the most recent term data
-    valid_data_for_prediction.sort(key=lambda x: x["session_term"])
-    excluded_term_data = valid_data_for_prediction.pop()
-    
-    terms = [record["session_term"] for record in valid_data_for_prediction]
-    enrollments = [record["total_enrollment"] for record in valid_data_for_prediction]
-    
-    X, _ = encode_terms(terms)
-    y = np.array(enrollments)
-    
-    b0, b1 = simple_linear_regression(X, y)
-    
-    # Predict for the next term, considering the latest term in the dataset is now excluded
-    if X[-1] % 1 == 0:
-        future_encoded = X[-1] + 0.5
-    else:
-        future_encoded = np.ceil(X[-1])
-    
-    predicted_enrollment = b0 + b1 * future_encoded
-    
-    future_term = 'Fall' if future_encoded % 1 > 0 else 'Spring'
-    future_year = int(future_encoded) if future_term == 'Fall' else int(future_encoded + 1)
-    future_term_str = f"{future_term} {future_year}"
-    
-    # Actual enrollment from the excluded term for comparison
-    actual_enrollment = excluded_term_data["total_enrollment"]
-    
-    return future_term_str, int(predicted_enrollment), actual_enrollment
+        mae, rmse, r2 = calculate_metrics(historical_enrollments[1:], predicted_enrollments)
+        results[course_id] = {'MAE': mae, 'RMSE': rmse, 'R^2': r2}
 
-# Main function to run the program
+    return results
+
 def main():
-    file_path = "../data_alteration/summarized_course_data.json"  # Example file path; adjust as needed
-    course_id = "CSCI 1200 CS PRINCIPLES"  # Example course ID
-    data = read_json_data(file_path)
-    future_term, predicted_enrollment, actual_enrollment = predict_enrollment(data, course_id)
-    print(f"Predicted enrollment for {future_term}: {predicted_enrollment}")
-    print(f"Actual enrollment for comparison: {actual_enrollment}")
+    file_path = '../data_alteration/summarized_course_data.json'
+    course_data = load_data(file_path)
+    course_ids = set([d['course_name'] for d in course_data])
+    results = backtest_predictions(course_data, course_ids)
 
-# The call to main() is commented out to prevent automatic execution in this interface.
-# If you're implementing this in a standalone script, uncomment the following line.
-main()
+    for course_id, metrics in results.items():
+        print(f"Results for {course_id}:")
+        print(f"  MAE: {metrics['MAE']}")
+        print(f"  RMSE: {metrics['RMSE']}")
+        print(f"  R^2: {metrics['R^2']}")
+
+if __name__ == "__main__":
+    main()
