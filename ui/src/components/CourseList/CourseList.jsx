@@ -34,7 +34,6 @@ function getCourseElements(arr) {
 
 function CourseList(props) {
   let data = getCourseData();
-  console.log(data);
 
   if (props.ids && props.ids.length > 0) {
     data = data.filter(course => (props.ids.includes(course.id)));

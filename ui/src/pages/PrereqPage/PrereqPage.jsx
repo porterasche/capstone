@@ -43,16 +43,17 @@ function createEdge(sourceId, targetId, nodes, edges) {
 
 function PrereqPage() {
   function onCyInteraction(cy) {
+    // uncomment if we choose to do more work with cytoscape in the future
     // const myCyRef = cy;
 
-    console.log("EVT", cy);
+    // console.log("EVT", cy);
 
-    cy.on("tap", "node", evt => {
-      var node = evt.target;
-      console.log("EVT", evt);
-      console.log("TARGET", node.data());
-      console.log("TARGET TYPE", typeof node[0]);
-    });
+    // cy.on("tap", "node", evt => {
+    //   var node = evt.target;
+    //   console.log("EVT", evt);
+    //   console.log("TARGET", node.data());
+    //   console.log("TARGET TYPE", typeof node[0]);
+    // });
   }
 
   const courses = getCourseData();
@@ -153,7 +154,7 @@ function PrereqPage() {
       <div style={{ border: "1px solid", backgroundColor: "#ffffff" }}>
         <CytoscapeComponent
           elements={CytoscapeComponent.normalizeElements(data)}
-          style={{ width: '100%', height: '800' }}
+          style={{ width: '100%', height: '900px' }}
           zoomingEnabled={true}
           maxZoom={5}
           minZoom={0.3}
