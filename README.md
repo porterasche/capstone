@@ -48,3 +48,11 @@ You will also need Python for the server, along with the additional package that
 -   Fixed the data so it can be better interacted with the algorithm, and replaced dates with the terms, and a more accurate prediction.
 -   Parameterized the algorithm so it can be called as a function and passed in parameters.
 -   Converted dates in courses into more readable semester format, and stored them.
+
+### Code Milestone 4
+-   Updated UI to display prediction algorithm results.
+-   Updated UI to allow selection of course to predict.
+-   Setup new endpoints for the algorithm results in UI
+-   Added Pre-req viewer using cytoscape
+-   Increase pediction algorithm testing accuracy function
+-   Improved progress on Algorithm using prereqs.
