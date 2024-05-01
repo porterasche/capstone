@@ -44,6 +44,6 @@ async def run_multi_algorithm(numberOfCourses: int, term: str = Query(None), yea
         data.append({'key': predicted_enrollment, 'value': courseId})
     sortedCourses = sorted(data, key=lambda x: x['key'])
     for i in range(numberOfCourses):
-        resultString += f"\n {i+1}. Predicted enrollment for {sortedCourses[sortedCourses.__len__()-1-i]['value']}: {sortedCourses[sortedCourses.__len__()-1-i]['key']}"
+        resultString += f"(Predicted enrollment for {sortedCourses[sortedCourses.__len__()-1-i]['value']}: {sortedCourses[sortedCourses.__len__()-1-i]['key']}) "
     return {"message": resultString}
 

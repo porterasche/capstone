@@ -3,6 +3,7 @@ import TopBar from "../../components/TopBar/TopBar";
 import { useState, useEffect } from 'react';
 import CourseList from "../../components/CourseList/CourseList";
 import courseNames from './course_names.json'; // Import JSON directly
+import PredictionTable from "./PredictionTable";
 
 function AlgorithmPage() {
   const formStyle = {
@@ -197,7 +198,7 @@ function AlgorithmPage() {
           Return to Algorithm Selection
         </button>
       </form>
-      <p>{prediction}</p>
+      <PredictionTable prediction={prediction}/>
       </div>
       }
     </div>
