@@ -26,6 +26,10 @@ To run the React UI, you need the latest version of [Node.js](https://nodejs.org
 
 You will also need Python for the server, along with the additional package that can be downloaded with `python -m pip install Django`. Open a terminal in `capstone/server` and start it by running the command `python manage.py runserver`. You can visit http://localhost:8000/courses/ to see the basic homepage. Documentation for continuing to set up this server can be found at https://docs.djangoproject.com/en/5.0/intro/tutorial01/.
 
+## Documentation
+
+The generated documentation for the project can be found at this link for the python backend files: [Documentation](https://porterasche.github.io/capstone/files.html). The generated documentation for the front end can be found at this link:
+
 ## Release Notes
 
 ### Code Milestone 1
