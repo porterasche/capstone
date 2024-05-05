@@ -83,41 +83,18 @@ Functions</h2></td></tr>
 <tr class="separator:a7a04613c2f834768700aa30c49cf1b0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06fabcca6d884f0313969fa889265b98" id="r_a06fabcca6d884f0313969fa889265b98"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a06fabcca6d884f0313969fa889265b98">filter_course_data</a> (course_data, course_id)</td></tr>
 <tr class="separator:a06fabcca6d884f0313969fa889265b98"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1a192af797c431db3be914b51bcb4682" id="r_a1a192af797c431db3be914b51bcb4682"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a1a192af797c431db3be914b51bcb4682">encode_terms</a> (terms)</td></tr>
-<tr class="separator:a1a192af797c431db3be914b51bcb4682"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a59566c2fc9607709d3b0060278b1b2bd" id="r_a59566c2fc9607709d3b0060278b1b2bd"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a59566c2fc9607709d3b0060278b1b2bd">simple_linear_regression</a> (X, y)</td></tr>
-<tr class="separator:a59566c2fc9607709d3b0060278b1b2bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aadb29220001d26439653aec9990fa5e9" id="r_aadb29220001d26439653aec9990fa5e9"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#aadb29220001d26439653aec9990fa5e9">encode_terms</a> (terms, last_season)</td></tr>
+<tr class="separator:aadb29220001d26439653aec9990fa5e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad58043dac5dde8722f07df222f025544" id="r_ad58043dac5dde8722f07df222f025544"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#ad58043dac5dde8722f07df222f025544">multiple_linear_regression</a> (X, y, weights)</td></tr>
+<tr class="separator:ad58043dac5dde8722f07df222f025544"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ff38ea9dc54fe3805803659a82ca818" id="r_a8ff38ea9dc54fe3805803659a82ca818"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a8ff38ea9dc54fe3805803659a82ca818">predict_enrollment</a> (course_data, course_id)</td></tr>
 <tr class="separator:a8ff38ea9dc54fe3805803659a82ca818"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abfee68440df227a740a90f703c55b1c7" id="r_abfee68440df227a740a90f703c55b1c7"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#abfee68440df227a740a90f703c55b1c7">choose_course</a> (course_names_file)</td></tr>
-<tr class="separator:abfee68440df227a740a90f703c55b1c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c4e34e1b3dd40cfd363a34247e738b8" id="r_a6c4e34e1b3dd40cfd363a34247e738b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="#a6c4e34e1b3dd40cfd363a34247e738b8">main</a> ()</td></tr>
 <tr class="separator:a6c4e34e1b3dd40cfd363a34247e738b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="abfee68440df227a740a90f703c55b1c7" name="abfee68440df227a740a90f703c55b1c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abfee68440df227a740a90f703c55b1c7">&#9670;&#160;</a></span>choose_course()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">PredictionAlgo.choose_course </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>course_names_file</em></span></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">Prompts the user to choose a course from a list.
-
-@param course_names_file The path of the file containing course names.
-@return The selected course name.
-</pre> 
-</div>
-</div>
-<a id="a1a192af797c431db3be914b51bcb4682" name="a1a192af797c431db3be914b51bcb4682"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1a192af797c431db3be914b51bcb4682">&#9670;&#160;</a></span>encode_terms()</h2>
+<a id="aadb29220001d26439653aec9990fa5e9" name="aadb29220001d26439653aec9990fa5e9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aadb29220001d26439653aec9990fa5e9">&#9670;&#160;</a></span>encode_terms()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -125,18 +102,24 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">PredictionAlgo.encode_terms </td>
           <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>terms</em></span></td><td>)</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>terms</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
           <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>last_season</em></span>&#160;)</td>
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Encode term strings into numerical values for regression.
+<pre class="fragment">Encode term strings into numerical and seasonal values for regression,
+and generate weights based on seasonal alignment.
 
-Terms are split into components (e.g., 'Spring 2019') and encoded numerically,
-with Spring as .0 and Fall as .5 to represent parts of the year.
+Args:
+    terms (list): List of term strings.
+    last_season (str): Season of the last recorded term.
 
-@param terms A list of term strings to encode.
-@return A tuple containing an array of encoded terms and a mapping of encoded terms to their original strings.
+Returns:
+    tuple: Encoded terms, term mapping, and weights.
 </pre> 
 </div>
 </div>
@@ -160,9 +143,12 @@ with Spring as .0 and Fall as .5 to represent parts of the year.
 </div><div class="memdoc">
 <pre class="fragment">Filters data for a specific course based on its course_name.
 
-@param course_data The dataset containing course records.
-@param course_id The ID of the course to filter for.
-@return A list of records for the specified course.
+Args:
+    course_data (list): List of dictionaries containing course data.
+    course_id (str): ID of the course.
+
+Returns:
+    list: Filtered list of dictionaries containing course data for the specified course ID.
 </pre> 
 </div>
 </div>
@@ -180,7 +166,43 @@ with Spring as .0 and Fall as .5 to represent parts of the year.
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Main function to predict course enrollment.
+<pre class="fragment">Main function to predict enrollments for courses based on historical data.
+</pre> 
+</div>
+</div>
+<a id="ad58043dac5dde8722f07df222f025544" name="ad58043dac5dde8722f07df222f025544"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad58043dac5dde8722f07df222f025544">&#9670;&#160;</a></span>multiple_linear_regression()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">PredictionAlgo.multiple_linear_regression </td>
+          <td>(</td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>X</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>y</em>, </span></td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>weights</em></span>&#160;)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<pre class="fragment">Handles multiple factors including seasonal variations for regression,
+applying weights to emphasize data from matching seasons.
+
+Args:
+    X (numpy.ndarray): Input features.
+    y (numpy.ndarray): Target values.
+    weights (numpy.ndarray): Weights for the data.
+
+Returns:
+    numpy.ndarray: Coefficients of the linear regression model.
 </pre> 
 </div>
 </div>
@@ -202,11 +224,15 @@ with Spring as .0 and Fall as .5 to represent parts of the year.
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Predicts the next term's enrollment based on linear regression, accurately handling term transitions.
+<pre class="fragment">Predicts enrollment based on historical data and seasonal trends,
+emphasizing data from the same seasonal cycle.
 
-@param course_data The dataset of course records.
-@param course_id The ID of the course for which to predict enrollment.
-@return A tuple containing the string representation of the future term and the predicted enrollment as an integer.
+Args:
+    course_data (list): List of dictionaries containing course data.
+    course_id (str): ID of the course.
+
+Returns:
+    tuple: A tuple containing the future term and the predicted enrollment.
 </pre> 
 </div>
 </div>
@@ -224,36 +250,13 @@ with Spring as .0 and Fall as .5 to represent parts of the year.
         </tr>
       </table>
 </div><div class="memdoc">
-<pre class="fragment">Read JSON data from a file.
+<pre class="fragment">Reads JSON data from a file.
 
-@param file_path The path of the file to read.
-@return The JSON data read from the file.
-</pre> 
-</div>
-</div>
-<a id="a59566c2fc9607709d3b0060278b1b2bd" name="a59566c2fc9607709d3b0060278b1b2bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a59566c2fc9607709d3b0060278b1b2bd">&#9670;&#160;</a></span>simple_linear_regression()</h2>
+Args:
+    file_path (str): The path to the JSON file.
 
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">PredictionAlgo.simple_linear_regression </td>
-          <td>(</td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>X</em>, </span></td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"></td>          <td class="paramname"><span class="paramname"><em>y</em></span>&#160;)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-<pre class="fragment">Performs simple linear regression on the data.
-
-@param X The independent variable data.
-@param y The dependent variable data.
-@return The intercept and slope of the regression line.
+Returns:
+    dict: The JSON data loaded from the file.
 </pre> 
 </div>
 </div>

@@ -12,6 +12,12 @@ port = "5432"       # Default PostgreSQL port
 json_file_path = "cleaned_courses.json"
 
 def create_table(cursor):
+    """
+    Create the database table if it doesn't exist.
+
+    Args:
+        cursor: Cursor object to execute SQL queries.
+    """
     # Define the table structure as per your requirements
     create_table_query = '''
         CREATE TABLE IF NOT EXISTS course_list (
@@ -25,10 +31,16 @@ def create_table(cursor):
     cursor.execute(create_table_query)
 
 def insert_data_from_json(cursor):
+    """
+    Insert data from a JSON file into the database table.
+
+    Args:
+        cursor: Cursor object to execute SQL queries.
+    """
     with open(json_file_path, 'r') as json_file:
         data = json.load(json_file)
 
-    # Assuming each entry in the JSON file has 'name' and 'age' fields
+    # Assuming each entry in the JSON file has 'id', 'name', 'desc', 'prereqs', and 'misc' fields
     insert_query = '''
         INSERT INTO course_list (id, name, description, prereqs, misc) VALUES (%s, %s, %s, %s, %s);
     '''
@@ -42,6 +54,9 @@ def insert_data_from_json(cursor):
         cursor.execute(insert_query, (id, name, description, prereqs, misc))
 
 def main():
+    """
+    Main function to interact with the PostgreSQL database.
+    """
     # Establish a connection to the PostgreSQL database
     connection = psycopg2.connect(
         database=database_name,
@@ -55,6 +70,7 @@ def main():
     cursor = connection.cursor()
 
     # Create the table (if not exists)
+    create_table(cursor)
 
     # Insert data from the JSON file into the table
     insert_data_from_json(cursor)

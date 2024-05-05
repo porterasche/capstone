@@ -2,6 +2,15 @@ import json
 import numpy as np
 
 def read_json_data(file_path):
+    """
+    Reads JSON data from a file.
+
+    Args:
+        file_path (str): The path to the JSON file.
+
+    Returns:
+        dict: The JSON data loaded from the file.
+    """
     with open(file_path, 'r') as file:
         data = json.load(file)
     return data
@@ -10,6 +19,13 @@ def get_prereq_data(course_data, course_id):
     """
     Calculates the average enrollments from prerequisite courses, with a variable decay factor
     depending on the course level.
+
+    Args:
+        course_data (dict): Dictionary containing course data.
+        course_id (str): ID of the course.
+
+    Returns:
+        float: The predicted enrollment based on average enrollments of prerequisites.
     """
     course_info = course_data.get(course_id, {})
     prereqs = course_info.get('prerequisites', [])
@@ -36,11 +52,16 @@ def get_prereq_data(course_data, course_id):
 
     return average_enrollment
 
-
-
 def predict_enrollment_with_prereqs(course_data, course_id):
     """
     Predicts enrollment for a course based on the average enrollments of its prerequisites.
+
+    Args:
+        course_data (dict): Dictionary containing course data.
+        course_id (str): ID of the course.
+
+    Returns:
+        tuple: A tuple containing the course ID and the predicted enrollment.
     """
     if course_id not in course_data:
         return "No data available for this course", 0
@@ -53,8 +74,10 @@ def predict_enrollment_with_prereqs(course_data, course_id):
 
     return course_id, int(predicted_enrollment)
 
-
 def main():
+    """
+    Main function to predict enrollments for courses based on prerequisites.
+    """
     data_file_path = "transformed_course_data.json"
     course_data = read_json_data(data_file_path)
 

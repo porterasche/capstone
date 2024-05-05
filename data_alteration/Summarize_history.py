@@ -1,18 +1,28 @@
 import json
 from datetime import datetime
 
-# Load the JSON data
-with open('../webscraper/course_history.json', 'r') as file:
-    course_history = json.load(file)
-
-# Initialize a dictionary to hold the summarized data
-summarized_data = {}
-
-# Function to determine the session term based on date
 def process_course_data(course_history):
+    """
+    Process course data to summarize enrollment information based on session terms.
+
+    Args:
+        course_history (dict): Dictionary containing course history data.
+
+    Returns:
+        list: List of dictionaries containing summarized enrollment information.
+    """
     summarized_data = {}
 
     def determine_session(date_str):
+        """
+        Determine the session term based on a given date string.
+
+        Args:
+            date_str (str): Date string in the format "MMM DD, YYYY".
+
+        Returns:
+            str or None: Session term string (e.g., "Spring 2023") if valid, otherwise None.
+        """
         date = datetime.strptime(date_str, "%b %d, %Y")
         if 1 <= date.month <= 5:
             return f'Spring {date.year}'
@@ -42,7 +52,9 @@ def process_course_data(course_history):
     output_data = list(summarized_data.values())
     return output_data
 
-# Assume the data is loaded into `course_history`
+# Load the JSON data
+with open('../webscraper/course_history.json', 'r') as file:
+    course_history = json.load(file)
 
 # Process and save the corrected data
 corrected_data = process_course_data(course_history)

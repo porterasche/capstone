@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['choose_5fcourse_0',['choose_course',['../namespace_prediction_algo.html#abfee68440df227a740a90f703c55b1c7',1,'PredictionAlgo']]]
+  ['backtest_5fpredictions_0',['backtest_predictions',['../namespace_prediction_algo_testing_accuracy_function.html#a82cbd5057dac96561e57a45145acdee2',1,'PredictionAlgoTestingAccuracyFunction']]]
 ];
