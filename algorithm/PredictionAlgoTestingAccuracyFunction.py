@@ -2,8 +2,7 @@ import json
 import numpy as np
 
 # Assuming the prediction functions and their dependencies have been defined/imported properly
-# from your_module import read_json_data, predict_enrollment, multiple_linear_regression, encode_terms, filter_course_data
-
+from PredictionAlgo import predict_enrollment, filter_course_data
 def load_data(file_path):
     """
     Load course data from a JSON file.
