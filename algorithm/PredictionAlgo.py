@@ -4,6 +4,12 @@ import numpy as np
 def read_json_data(file_path):
     """
     Reads JSON data from a file.
+    
+    Args:
+        file_path (str): The path to the JSON file.
+    
+    Returns:
+        dict: The JSON data loaded from the file.
     """
     with open(file_path, 'r') as file:
         data = json.load(file)
@@ -12,6 +18,13 @@ def read_json_data(file_path):
 def filter_course_data(course_data, course_id):
     """
     Filters data for a specific course based on its course_name.
+    
+    Args:
+        course_data (list): List of dictionaries containing course data.
+        course_id (str): ID of the course.
+    
+    Returns:
+        list: Filtered list of dictionaries containing course data for the specified course ID.
     """
     return [record for record in course_data if record['course_name'] == course_id]
 
@@ -19,6 +32,13 @@ def encode_terms(terms, last_season):
     """
     Encode term strings into numerical and seasonal values for regression,
     and generate weights based on seasonal alignment.
+    
+    Args:
+        terms (list): List of term strings.
+        last_season (str): Season of the last recorded term.
+    
+    Returns:
+        tuple: Encoded terms, term mapping, and weights.
     """
     term_mapping = {}
     encoded_terms = []
@@ -40,6 +60,14 @@ def multiple_linear_regression(X, y, weights):
     """
     Handles multiple factors including seasonal variations for regression,
     applying weights to emphasize data from matching seasons.
+    
+    Args:
+        X (numpy.ndarray): Input features.
+        y (numpy.ndarray): Target values.
+        weights (numpy.ndarray): Weights for the data.
+    
+    Returns:
+        numpy.ndarray: Coefficients of the linear regression model.
     """
     # Normalize weights and apply them
     weights = np.sqrt(weights)
@@ -54,6 +82,13 @@ def predict_enrollment(course_data, course_id):
     """
     Predicts enrollment based on historical data and seasonal trends,
     emphasizing data from the same seasonal cycle.
+    
+    Args:
+        course_data (list): List of dictionaries containing course data.
+        course_id (str): ID of the course.
+    
+    Returns:
+        tuple: A tuple containing the future term and the predicted enrollment.
     """
     specific_course_data = filter_course_data(course_data, course_id)
     valid_data_for_prediction = [record for record in specific_course_data if record.get('total_enrollment', -1) > 0]
@@ -79,6 +114,9 @@ def predict_enrollment(course_data, course_id):
     return (future_term_str, int(predicted_enrollment))
 
 def main():
+    """
+    Main function to predict enrollments for courses based on historical data.
+    """
     course_names_file = "course_names.json"
     course_names = read_json_data(course_names_file)
     

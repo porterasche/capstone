@@ -4,6 +4,12 @@ import numpy as np
 def read_json_data(file_path):
     """
     Reads JSON data from a file.
+    
+    Args:
+        file_path (str): The path to the JSON file.
+    
+    Returns:
+        dict: The loaded JSON data.
     """
     with open(file_path, 'r') as file:
         data = json.load(file)
@@ -12,6 +18,13 @@ def read_json_data(file_path):
 def filter_course_data(course_data, course_id):
     """
     Filters data for a specific course based on its course_name.
+    
+    Args:
+        course_data (list): List of dictionaries containing course data.
+        course_id (str): The course ID to filter data for.
+    
+    Returns:
+        list: Filtered list of dictionaries containing course data for the specified course.
     """
     return [record for record in course_data if record['course_name'] == course_id]
 
@@ -19,6 +32,12 @@ def encode_terms(terms):
     """
     Encode term strings into numerical and seasonal values for regression.
     Using sine and cosine to capture cyclical nature of terms and adding seasonal weights.
+    
+    Args:
+        terms (list): List of term strings in the format 'Season Year'.
+    
+    Returns:
+        tuple: A tuple containing encoded terms, term mapping, and weights.
     """
     term_mapping = {}
     encoded_terms = []
@@ -41,6 +60,14 @@ def encode_terms(terms):
 def multiple_linear_regression(X, y, weights):
     """
     Performs weighted linear regression to handle seasonal variations more effectively.
+    
+    Args:
+        X (numpy.ndarray): Input features.
+        y (numpy.ndarray): Target values.
+        weights (numpy.ndarray): Weights for each data point.
+    
+    Returns:
+        numpy.ndarray: Coefficients of the linear regression model.
     """
     # Apply weights to both X and y
     weighted_X = X * weights[:, None]  # Apply weights to each feature
@@ -54,6 +81,13 @@ def multiple_linear_regression(X, y, weights):
 def predict_enrollment(course_data, course_id):
     """
     Predicts the next term's enrollment based on linear regression, using weighted seasonal adjustments.
+    
+    Args:
+        course_data (list): List of dictionaries containing course data.
+        course_id (str): The course ID to predict enrollment for.
+    
+    Returns:
+        tuple: A tuple containing course ID, future term, and predicted enrollment.
     """
     specific_course_data = filter_course_data(course_data, course_id)
     valid_data_for_prediction = [record for record in specific_course_data if record.get('total_enrollment', -1) > 0]
@@ -80,6 +114,9 @@ def predict_enrollment(course_data, course_id):
     return (course_id, future_term_str, int(predicted_enrollment))
 
 def main():
+    """
+    Main function to predict enrollments for courses.
+    """
     course_names_file = "course_names.json"
     course_names = read_json_data(course_names_file)
     data_file_path = "../data_alteration/summarized_course_data.json"

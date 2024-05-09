@@ -26,6 +26,10 @@ To run the React UI, you need the latest version of [Node.js](https://nodejs.org
 
 You will also need Python for the server, along with the additional package that can be downloaded with `python -m pip install Django`. Open a terminal in `capstone/server` and start it by running the command `python manage.py runserver`. You can visit http://localhost:8000/courses/ to see the basic homepage. Documentation for continuing to set up this server can be found at https://docs.djangoproject.com/en/5.0/intro/tutorial01/.
 
+## Documentation
+
+The generated documentation for the project can be found at this link for the python backend files: [Documentation](https://porterasche.github.io/capstone/files.html). The generated documentation for the front end can be found at this link:
+
 ## Release Notes
 
 ### Code Milestone 1
@@ -48,3 +52,11 @@ You will also need Python for the server, along with the additional package that
 -   Fixed the data so it can be better interacted with the algorithm, and replaced dates with the terms, and a more accurate prediction.
 -   Parameterized the algorithm so it can be called as a function and passed in parameters.
 -   Converted dates in courses into more readable semester format, and stored them.
+
+### Code Milestone 4
+-   Updated UI to display prediction algorithm results.
+-   Updated UI to allow selection of course to predict.
+-   Setup new endpoints for the algorithm results in UI
+-   Added Pre-req viewer using cytoscape
+-   Increase pediction algorithm testing accuracy function
+-   Improved progress on Algorithm using prereqs.

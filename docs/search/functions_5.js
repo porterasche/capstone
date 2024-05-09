@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['read_5fjson_5fdata_0',['read_json_data',['../namespace_prediction_algo.html#a7a04613c2f834768700aa30c49cf1b0c',1,'PredictionAlgo']]]
+  ['insert_5fdata_5ffrom_5fjson_0',['insert_data_from_json',['../namespacedb.html#a96756053fbf1bbc9683039560e7d13f6',1,'db']]]
 ];

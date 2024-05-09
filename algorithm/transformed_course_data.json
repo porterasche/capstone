@@ -1,0 +1,550 @@
+{
+    "CSCI1200": {
+        "enrollment": 102,
+        "prerequisites": []
+    },
+    "CSCI1204": {
+        "enrollment": 52,
+        "prerequisites": [
+            "CSCI1200"
+        ]
+    },
+    "CSCI1620": {
+        "enrollment": 350,
+        "prerequisites": [
+            "CIST1400"
+        ]
+    },
+    "CSCI2030": {
+        "enrollment": 153,
+        "prerequisites": [
+            "CIST1400",
+            "MATH1930",
+            "MATH1950"
+        ]
+    },
+    "CSCI2240": {
+        "enrollment": 115,
+        "prerequisites": [
+            "CSCI1620"
+        ]
+    },
+    "CSCI2510": {
+        "enrollment": 30,
+        "prerequisites": [
+            "CSCI2240"
+        ]
+    },
+    "CSCI2850": {
+        "enrollment": 37,
+        "prerequisites": [
+            "CIST1300",
+            "CIST1400"
+        ]
+    },
+    "CSCI3100": {
+        "enrollment": 14,
+        "prerequisites": [
+            "MATH2030",
+            "MATH2230",
+            "CSCI2030"
+        ]
+    },
+    "CSCI3300": {
+        "enrollment": 12,
+        "prerequisites": []
+    },
+    "CSCI3320": {
+        "enrollment": 135,
+        "prerequisites": [
+            "CSCI1620",
+            "CSCI2030",
+            "MATH2030"
+        ]
+    },
+    "CSCI3450": {
+        "enrollment": 30,
+        "prerequisites": [
+            "CSCI2030",
+            "CSCI3320"
+        ]
+    },
+    "CSCI3550": {
+        "enrollment": 84,
+        "prerequisites": [
+            "CSCI3320",
+            "CSCI8325",
+            "CSCI2240",
+            "CYBR2250"
+        ]
+    },
+    "CSCI3660": {
+        "enrollment": 71,
+        "prerequisites": [
+            "CSCI3320"
+        ]
+    },
+    "CSCI3710": {
+        "enrollment": 119,
+        "prerequisites": [
+            "CSCI3320"
+        ]
+    },
+    "CSCI3830": {
+        "enrollment": 35,
+        "prerequisites": [
+            "CSCI2830",
+            "CSCI3320"
+        ]
+    },
+    "CSCI4000": {
+        "enrollment": 70,
+        "prerequisites": []
+    },
+    "CSCI4150": {
+        "enrollment": 23,
+        "prerequisites": [
+            "CSCI2030",
+            "MATH2030",
+            "MATH2230"
+        ]
+    },
+    "CSCI4220": {
+        "enrollment": 63,
+        "prerequisites": [
+            "CSCI3320",
+            "CSCI3660"
+        ]
+    },
+    "CSCI4260": {
+        "enrollment": 28,
+        "prerequisites": [
+            "CIST2500",
+            "CSCI4250",
+            "ITIN3330"
+        ]
+    },
+    "CSCI4350": {
+        "enrollment": 101,
+        "prerequisites": [
+            "CSCI3710",
+            "CSCI3320",
+            "CSCI8325"
+        ]
+    },
+    "CSCI4380": {
+        "enrollment": 6,
+        "prerequisites": [
+            "CYBR3600",
+            "CIST3600",
+            "CSCI3550",
+            "ISQA3400",
+            "CYBR2600"
+        ]
+    },
+    "CSCI4500": {
+        "enrollment": 74,
+        "prerequisites": [
+            "CSCI3710",
+            "CSCI3320",
+            "MATH1950",
+            "CSCI4350"
+        ]
+    },
+    "CSCI4560": {
+        "enrollment": 6,
+        "prerequisites": [
+            "MATH2230",
+            "MATH2030",
+            "CSCI2030"
+        ]
+    },
+    "CSCI4620": {
+        "enrollment": 34,
+        "prerequisites": [
+            "CSCI3320"
+        ]
+    },
+    "CSCI4830": {
+        "enrollment": 66,
+        "prerequisites": [
+            "CSCI3320"
+        ]
+    },
+    "CSCI4850": {
+        "enrollment": 20,
+        "prerequisites": [
+            "CSCI3320"
+        ]
+    },
+    "CSCI4950": {
+        "enrollment": 9,
+        "prerequisites": []
+    },
+    "CSCI4970": {
+        "enrollment": 67,
+        "prerequisites": [
+            "CSCI4830"
+        ]
+    },
+    "CSCI4990": {
+        "enrollment": 2,
+        "prerequisites": []
+    },
+    "CSCI8080": {
+        "enrollment": 30,
+        "prerequisites": []
+    },
+    "CSCI8156": {
+        "enrollment": 3,
+        "prerequisites": []
+    },
+    "CSCI8266": {
+        "enrollment": 14,
+        "prerequisites": []
+    },
+    "CSCI8305": {
+        "enrollment": 1,
+        "prerequisites": []
+    },
+    "CSCI8325": {
+        "enrollment": 1,
+        "prerequisites": []
+    },
+    "CSCI8366": {
+        "enrollment": 6,
+        "prerequisites": []
+    },
+    "CSCI8410": {
+        "enrollment": 14,
+        "prerequisites": []
+    },
+    "CSCI8450": {
+        "enrollment": 23,
+        "prerequisites": []
+    },
+    "CSCI8480": {
+        "enrollment": 8,
+        "prerequisites": []
+    },
+    "CSCI8506": {
+        "enrollment": 2,
+        "prerequisites": []
+    },
+    "CSCI8530": {
+        "enrollment": 28,
+        "prerequisites": []
+    },
+    "CSCI8555": {
+        "enrollment": 1,
+        "prerequisites": []
+    },
+    "CSCI8566": {
+        "enrollment": 1,
+        "prerequisites": []
+    },
+    "CSCI8610": {
+        "enrollment": 9,
+        "prerequisites": []
+    },
+    "CSCI8626": {
+        "enrollment": 1,
+        "prerequisites": []
+    },
+    "CSCI8790": {
+        "enrollment": 18,
+        "prerequisites": []
+    },
+    "CSCI8836": {
+        "enrollment": 9,
+        "prerequisites": []
+    },
+    "CSCI8856": {
+        "enrollment": 9,
+        "prerequisites": []
+    },
+    "CSCI8876": {
+        "enrollment": 3,
+        "prerequisites": []
+    },
+    "CSCI8910": {
+        "enrollment": 24,
+        "prerequisites": []
+    },
+    "CSCI8950": {
+        "enrollment": 4,
+        "prerequisites": []
+    },
+    "CSCI8960": {
+        "enrollment": 4,
+        "prerequisites": []
+    },
+    "CSCI8970": {
+        "enrollment": 1,
+        "prerequisites": []
+    },
+    "CSCI8990": {
+        "enrollment": 5,
+        "prerequisites": []
+    },
+    "CSCI8150": {
+        "enrollment": 8,
+        "prerequisites": []
+    },
+    "CSCI2980": {
+        "enrollment": 41,
+        "prerequisites": [
+            "CSCI1620"
+        ]
+    },
+    "CSCI3510": {
+        "enrollment": 24,
+        "prerequisites": [
+            "CSCI2510",
+            "CSCI3320"
+        ]
+    },
+    "CSCI3850": {
+        "enrollment": 17,
+        "prerequisites": [
+            "CSCI2030",
+            "CSCI2850"
+        ]
+    },
+    "CSCI4300": {
+        "enrollment": 1,
+        "prerequisites": [
+            "MATH2050"
+        ]
+    },
+    "CSCI4450": {
+        "enrollment": 29,
+        "prerequisites": [
+            "CSCI3320"
+        ]
+    },
+    "CSCI4890": {
+        "enrollment": 8,
+        "prerequisites": [
+            "ISQA3310",
+            "CSCI4850"
+        ]
+    },
+    "CSCI8000": {
+        "enrollment": 25,
+        "prerequisites": []
+    },
+    "CSCI8010": {
+        "enrollment": 6,
+        "prerequisites": []
+    },
+    "CSCI8210": {
+        "enrollment": 9,
+        "prerequisites": []
+    },
+    "CSCI8300": {
+        "enrollment": 19,
+        "prerequisites": []
+    },
+    "CSCI8306": {
+        "enrollment": 3,
+        "prerequisites": []
+    },
+    "CSCI8390": {
+        "enrollment": 10,
+        "prerequisites": []
+    },
+    "CSCI8420": {
+        "enrollment": 8,
+        "prerequisites": []
+    },
+    "CSCI8456": {
+        "enrollment": 15,
+        "prerequisites": []
+    },
+    "CSCI8700": {
+        "enrollment": 30,
+        "prerequisites": []
+    },
+    "CSCI8710": {
+        "enrollment": 9,
+        "prerequisites": []
+    },
+    "CSCI1280": {
+        "enrollment": 40,
+        "prerequisites": [
+            "MATH1120",
+            "MATH1130",
+            "MATH1220"
+        ]
+    },
+    "CSCI4010": {
+        "enrollment": 5,
+        "prerequisites": [
+            "MATH2230",
+            "MATH2030",
+            "CSCI3660"
+        ]
+    },
+    "CSCI4310": {
+        "enrollment": 3,
+        "prerequisites": [
+            "MATH2050",
+            "MATH4740",
+            "MATH8746",
+            "STAT3800",
+            "STAT8805"
+        ]
+    },
+    "CSCI8016": {
+        "enrollment": 1,
+        "prerequisites": []
+    },
+    "CSCI8980": {
+        "enrollment": 16,
+        "prerequisites": []
+    },
+    "CSCI9810": {
+        "enrollment": 9,
+        "prerequisites": []
+    },
+    "CSCI2410": {
+        "enrollment": 38,
+        "prerequisites": [
+            "CSCI1620",
+            "CIST2500"
+        ]
+    },
+    "CSCI4250": {
+        "enrollment": 56,
+        "prerequisites": [
+            "CSCI3320",
+            "ITIN3330"
+        ]
+    },
+    "CSCI4470": {
+        "enrollment": 11,
+        "prerequisites": [
+            "CSCI1620",
+            "MATH2050",
+            "MATH4740",
+            "STAT3800"
+        ]
+    },
+    "CSCI8110": {
+        "enrollment": 22,
+        "prerequisites": []
+    },
+    "CSCI8256": {
+        "enrollment": 14,
+        "prerequisites": []
+    },
+    "CSCI8476": {
+        "enrollment": 13,
+        "prerequisites": []
+    },
+    "CSCI8620": {
+        "enrollment": 13,
+        "prerequisites": []
+    },
+    "CSCI8920": {
+        "enrollment": 9,
+        "prerequisites": []
+    },
+    "CSCI4430": {
+        "enrollment": 5,
+        "prerequisites": [
+            "CYBR3570",
+            "CSCI4560"
+        ]
+    },
+    "CSCI2620": {
+        "enrollment": 29,
+        "prerequisites": [
+            "CSCI1620"
+        ]
+    },
+    "CSCI3470": {
+        "enrollment": 15,
+        "prerequisites": [
+            "CSCI2410"
+        ]
+    },
+    "CSCI8360": {
+        "enrollment": 12,
+        "prerequisites": []
+    },
+    "CSCI8520": {
+        "enrollment": 1,
+        "prerequisites": []
+    },
+    "CSCI8590": {
+        "enrollment": 18,
+        "prerequisites": []
+    },
+    "CSCI4650": {
+        "enrollment": 22,
+        "prerequisites": [
+            "CSCI3550",
+            "CSCI4500"
+        ]
+    },
+    "CSCI8350": {
+        "enrollment": 20,
+        "prerequisites": []
+    },
+    "CSCI8656": {
+        "enrollment": 11,
+        "prerequisites": []
+    },
+    "CSCI2830": {
+        "enrollment": 30,
+        "prerequisites": [
+            "CSCI1620"
+        ]
+    },
+    "CSCI2960": {
+        "enrollment": 7,
+        "prerequisites": [
+            "CSCI1620"
+        ]
+    },
+    "CSCI4200": {
+        "enrollment": 3,
+        "prerequisites": [
+            "MATH1970",
+            "MATH2050",
+            "MATH2350"
+        ]
+    },
+    "CSCI8050": {
+        "enrollment": 11,
+        "prerequisites": []
+    },
+    "CSCI8206": {
+        "enrollment": 1,
+        "prerequisites": []
+    },
+    "CSCI8340": {
+        "enrollment": 5,
+        "prerequisites": []
+    },
+    "CSCI8760": {
+        "enrollment": 17,
+        "prerequisites": []
+    },
+    "CSCI2040": {
+        "enrollment": 50,
+        "prerequisites": [
+            "CSCI2030"
+        ]
+    },
+    "CSCI4320": {
+        "enrollment": 2,
+        "prerequisites": [
+            "MATH3200",
+            "CSCI1620",
+            "MATH4300"
+        ]
+    }
+}
