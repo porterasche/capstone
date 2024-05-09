@@ -47,7 +47,7 @@ export default function TopBar() {
             >
               <Button color="inherit">
                 <MenuBookIcon />
-                Course Registrar
+                University Registrar
               </Button>
             </a>
           </Toolbar>
