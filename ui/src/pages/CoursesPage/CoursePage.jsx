@@ -13,6 +13,7 @@ function CoursePage() {
   return (
     <div>
       <TopBar></TopBar>
+      <div style={{ padding: '40px' }}></div>
       <div>
         <CourseList ids={ids} style={{ "padding-top": "10px" }} />
       </div>

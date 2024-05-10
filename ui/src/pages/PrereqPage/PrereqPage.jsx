@@ -1,6 +1,8 @@
 import TopBar from "../../components/TopBar/TopBar";
 import CytoscapeComponent from 'react-cytoscapejs';
+import dagre from 'cytoscape-dagre';
 import { courseData } from "../../components/CourseList/courseData";
+import cytoscape from "cytoscape";
 
 function getCourseData() {
   const arr = [];
@@ -42,6 +44,7 @@ function createEdge(sourceId, targetId, nodes, edges) {
 }
 
 function PrereqPage() {
+  cytoscape.use(dagre);
   function onCyInteraction(cy) {
     // uncomment if we choose to do more work with cytoscape in the future
     // const myCyRef = cy;
@@ -59,6 +62,7 @@ function PrereqPage() {
   const courses = getCourseData();
   const data = { nodes: [], edges: [] };
   for (const course of courses) {
+    if (course.prereq.every(p => !p.startsWith('CSCI')) && course.postreq.every(p => !p.startsWith('CSCI'))) { continue; }
     data.nodes.push({
       data: {
         id: `${course.id}`,
@@ -81,7 +85,7 @@ function PrereqPage() {
   }
 
   const layout = {
-    name: "random",
+    name: "dagre",
     fit: true,
     circle: true,
     directed: true,
@@ -101,7 +105,8 @@ function PrereqPage() {
         width: 30,
         height: 30,
         label: "data(label)",
-
+        "text-wrap": 'wrap',
+        "text-max-width": '200px',
         // "width": "mapData(score, 0, 0.006769776522008331, 20, 60)",
         // "height": "mapData(score, 0, 0.006769776522008331, 20, 60)",
         // "text-valign": "center",
@@ -154,7 +159,7 @@ function PrereqPage() {
       <div style={{ border: "1px solid", backgroundColor: "#ffffff" }}>
         <CytoscapeComponent
           elements={CytoscapeComponent.normalizeElements(data)}
-          style={{ width: '100%', height: '900px' }}
+          style={{ width: '100%', height: '957px' }}
           zoomingEnabled={true}
           maxZoom={5}
           minZoom={0.3}

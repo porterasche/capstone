@@ -40,8 +40,17 @@ function CourseList(props) {
   }
 
   if (data.length < 1) {
-    return <p>No courses found. (Only CSCI courses are available to be searched at this time.)</p>
+    return <p style={{ padding: '20px' }}>
+      No courses found. (Only CSCI courses are available to be searched)
+    </p>
   }
+
+  data = data.sort((a,b) => {
+    if (a.name < b.name) {
+      return - 1;
+    }
+    return 1;
+  });
 
   return <div className="CourseList">{getCourseElements(data)}</div>;
 }
