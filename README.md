@@ -28,8 +28,7 @@ You will also need Python for the server, along with the additional package that
 
 ## Documentation
 
-The generated documentation for the project can be found at this link for the python backend files: [Documentation](https://porterasche.github.io/capstone/files.html). The generated documentation for the front end can be found at this link:
-
+The generated documentation for the project can be found at this link for the python backend files: [Documentation](https://porterasche.github.io/capstone/files.html). 
 ## Release Notes
 
 ### Code Milestone 1
