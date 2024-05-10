@@ -86,7 +86,7 @@ function AlgorithmPage() {
           term: 'a',
           year: 'a',
         });
-        const result = await fetch(`http://127.0.0.1:8000/run_multi_algorithm?${queryString}`);
+        const result = await fetch(`http://137.48.186.80:8001/run_multi_algorithm?${queryString}`);
         const data = await result.json();
         setPrediction(data.message);
       } else { // single
@@ -95,7 +95,7 @@ function AlgorithmPage() {
           term: 'a',
           year: 'a',
         });
-        const result = await fetch(`http://127.0.0.1:8000/run_algorithm?${queryString}`);
+        const result = await fetch(`http://137.48.186.80:8001/run_algorithm?${queryString}`);
         const data = await result.json();
         setPrediction(data.message);
       }
