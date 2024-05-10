@@ -1,3 +1,8 @@
+/**
+ * React component for the Top Bar.
+ * This component provides navigation links to various sections of the application.
+ * @component
+ */
 import "./TopBar.css";
 import { Link } from "react-router-dom";
 import AppBar from "@mui/material/AppBar";
@@ -9,6 +14,10 @@ import SettingsSuggestIcon from "@mui/icons-material/SettingsSuggest";
 import MenuBookIcon from "@mui/icons-material/MenuBook";
 import AccountTreeIcon from "@mui/icons-material/AccountTree";
 
+/**
+ * Functional component representing the Top Bar.
+ * @returns {JSX.Element} JSX representation of the Top Bar.
+ */
 export default function TopBar() {
   return (
     <>

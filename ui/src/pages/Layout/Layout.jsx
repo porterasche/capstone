@@ -1,7 +1,16 @@
+/**
+ * React component for the Layout.
+ * This component defines the layout structure of the application.
+ * @component
+ */
 import "./Layout.css";
 import { AppBar, Box, Container } from "@mui/material";
 import { Link } from "react-router-dom";
 
+/**
+ * Functional component representing the Layout.
+ * @returns {JSX.Element} JSX representation of the Layout.
+ */
 function Layout() {
   return (
     <div className="App">

@@ -1,9 +1,18 @@
+/**
+ * React component for the Prerequisite Page.
+ * This component displays a graph of course prerequisites using Cytoscape.
+ * @component
+ */
 import TopBar from "../../components/TopBar/TopBar";
 import CytoscapeComponent from 'react-cytoscapejs';
 import dagre from 'cytoscape-dagre';
 import { courseData } from "../../components/CourseList/courseData";
 import cytoscape from "cytoscape";
 
+/**
+ * Function to retrieve course data from courseData object.
+ * @returns {Array<Object>} Array containing course data objects.
+ */
 function getCourseData() {
   const arr = [];
   for (const key in courseData) {
@@ -27,6 +36,14 @@ function getCourseData() {
   return arr;
 }
 
+/**
+ * Function to create an edge between two nodes.
+ * @param {string} sourceId - ID of the source node.
+ * @param {string} targetId - ID of the target node.
+ * @param {Array<Object>} nodes - Array of node objects.
+ * @param {Array<Object>} edges - Array of edge objects.
+ * @returns {Object|null} Edge object if creation is successful, otherwise null.
+ */
 function createEdge(sourceId, targetId, nodes, edges) {
   if (nodes.some(n => n.data.id === sourceId)
     && nodes.some(n => n.data.id === targetId)
@@ -43,10 +60,19 @@ function createEdge(sourceId, targetId, nodes, edges) {
   }
 }
 
+/**
+ * Functional component representing the Prerequisite Page.
+ * @returns {JSX.Element} JSX representation of the Prerequisite Page.
+ */
 function PrereqPage() {
   cytoscape.use(dagre);
+
+  /**
+   * Event handler for interactions with the Cytoscape component.
+   * @param {Object} cy - Cytoscape instance.
+   */
   function onCyInteraction(cy) {
-    // uncomment if we choose to do more work with cytoscape in the future
+    // Uncomment if more work with cytoscape is done in the future
     // const myCyRef = cy;
 
     // console.log("EVT", cy);

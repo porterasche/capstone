@@ -1,6 +1,15 @@
+/**
+ * React component for the Course List.
+ * This component displays a list of courses.
+ * @component
+ */
 import { courseData } from "./courseData";
 import Course from "../Course/Course";
 
+/**
+ * Function to retrieve course data from courseData object.
+ * @returns {Array<Object>} Array containing course data objects.
+ */
 function getCourseData() {
   const arr = [];
   for (const key in courseData) {
@@ -24,14 +33,25 @@ function getCourseData() {
   return arr;
 }
 
+/**
+ * Function to generate Course elements from course data.
+ * @param {Array<Object>} arr - Array containing course data objects.
+ * @returns {Array<JSX.Element>} Array of Course elements.
+ */
 function getCourseElements(arr) {
-  const elements = arr.map((course) => ( // switch key to course.id when all duplicates are removed
+  const elements = arr.map((course) => (
     <Course key={course.id} name={course.name} desc={course.desc} prereq={course.prereq} postreq={course.postreq}/>
   ));
 
   return elements;
 }
 
+/**
+ * Functional component representing the Course List.
+ * @param {Object} props - Props passed to the component.
+ * @param {Array<string>} [props.ids] - IDs of courses to be displayed.
+ * @returns {JSX.Element} JSX representation of the Course List.
+ */
 function CourseList(props) {
   let data = getCourseData();
 

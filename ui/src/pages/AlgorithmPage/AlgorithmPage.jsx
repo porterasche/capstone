@@ -1,10 +1,23 @@
+/**
+ * React component for the Algorithm Page.
+ * This component handles the UI and functionality related to running algorithms for course prediction.
+ * @component
+ */
 import "./AlgorithmPage.css";
 import TopBar from "../../components/TopBar/TopBar";
 import { useState } from 'react';
 import courseNames from './course_names.json'; // Import JSON directly
 import PredictionTable from "./PredictionTable";
 
+/**
+ * Functional component representing the Algorithm Page.
+ * @returns {JSX.Element} JSX representation of the Algorithm Page.
+ */
 function AlgorithmPage() {
+  /**
+   * Styles for form elements.
+   * @type {Object}
+   */
   const formStyle = {
     display: 'flex',
     flexDirection: 'column',
@@ -17,6 +30,10 @@ function AlgorithmPage() {
     justifyContent: 'center',
   };
 
+  /**
+   * Styles for select inputs.
+   * @type {Object}
+   */
   const selectStyle = {
     margin: '10px 0',
     padding: '10px',
@@ -25,6 +42,10 @@ function AlgorithmPage() {
     width: '300px',
   };
 
+  /**
+   * Styles for number input.
+   * @type {Object}
+   */
   const numberSelectStyle = {
     margin: '10px 0',
     padding: '10px',
@@ -33,6 +54,10 @@ function AlgorithmPage() {
     width: '276px',
   }
 
+  /**
+   * Styles for submit button.
+   * @type {Object}
+   */
   const buttonStyle = {
     padding: '10px 20px',
     border: 'none',
@@ -43,6 +68,10 @@ function AlgorithmPage() {
     marginTop: '10px',
   };
 
+  /**
+   * Styles for container div.
+   * @type {Object}
+   */
   const containerStyle = {
     display: 'auto',
     alignItems: 'center',
@@ -51,6 +80,10 @@ function AlgorithmPage() {
     background: 'linear-gradient(135deg, #89f7fe 0%, #66a6ff 100%)',
   };
 
+  /**
+   * State for form data.
+   * @type {Object}
+   */
   const [formData, setFormData] = useState({
     formType: 'single',
     courseId: '',
@@ -59,13 +92,23 @@ function AlgorithmPage() {
     numberOfCourses: 0,
   });
 
+  /**
+   * Array of sorted course names.
+   * @type {Array<string>}
+   */
   const sortedCourseNames = courseNames.sort();
 
+  /**
+   * State for prediction message.
+   * @type {string}
+   */
   const [prediction, setPrediction] = useState("");
 
+  /**
+   * Handler for input change events.
+   * @param {Object} e - Event object.
+   */
   const handleChange = (e) => {
-    console.log(e.target.name)
-    console.log(e.target.value)
     const { name, value } = e.target;
     setFormData(prevState => ({
       ...prevState,
@@ -73,14 +116,17 @@ function AlgorithmPage() {
     }));
   };
 
+  /**
+   * Handler for form submission.
+   * @param {Object} e - Event object.
+   */
   const handleSubmit = async (e) => {
     e.preventDefault();
 
     try {
       if (formData.formType === 'multiple') { // multiple
         const num = parseInt(formData.numberOfCourses);
-        if (!num) { return; }
-        if (formData.numberOfCourses < 1 || formData.numberOfCourses > 25) { return; }
+        if (!num || num < 1 || num > 25) { return; }
         const queryString = new URLSearchParams({
           numberOfCourses: formData.numberOfCourses,
           term: 'a',
@@ -104,6 +150,10 @@ function AlgorithmPage() {
     }
   };
 
+  /**
+   * Handler for returning to the initial form.
+   * @param {Object} e - Event object.
+   */
   const handleReturn = async (e) => {
     e.preventDefault();
     setFormData(prevState => ({
